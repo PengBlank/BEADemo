@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8300A2A31BFDAC8600E38D08 /* NavigationBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8300A2A11BFDAC8600E38D08 /* NavigationBarViewController.m */; };
+		8300A2A41BFDAC8600E38D08 /* NavigationBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8300A2A21BFDAC8600E38D08 /* NavigationBarViewController.xib */; };
 		83538F661BFC2C85007D547C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83538F651BFC2C85007D547C /* main.m */; };
 		83538F691BFC2C85007D547C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83538F681BFC2C85007D547C /* AppDelegate.m */; };
 		83538F6C1BFC2C85007D547C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83538F6B1BFC2C85007D547C /* ViewController.m */; };
@@ -15,6 +17,12 @@
 		83538F741BFC2C85007D547C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83538F721BFC2C85007D547C /* LaunchScreen.storyboard */; };
 		83538F7F1BFC2C85007D547C /* BEA_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83538F7E1BFC2C85007D547C /* BEA_DemoTests.m */; };
 		83538F8A1BFC2C85007D547C /* BEA_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83538F891BFC2C85007D547C /* BEA_DemoUITests.m */; };
+		83538F9E1BFC4B48007D547C /* bea_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 83538F9B1BFC4B48007D547C /* bea_icon.png */; };
+		83538F9F1BFC4B48007D547C /* bea_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83538F9C1BFC4B48007D547C /* bea_icon@2x.png */; };
+		83538FA01BFC4B48007D547C /* bea_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83538F9D1BFC4B48007D547C /* bea_icon@3x.png */; };
+		83538FA41BFC55E2007D547C /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 83538FA11BFC55E2007D547C /* menu.png */; };
+		83538FA51BFC55E2007D547C /* menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83538FA21BFC55E2007D547C /* menu@2x.png */; };
+		83538FA61BFC55E2007D547C /* menu@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83538FA31BFC55E2007D547C /* menu@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8300A2A01BFDAC8600E38D08 /* NavigationBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NavigationBarViewController.h; path = ../NavigationBarViewController.h; sourceTree = "<group>"; };
+		8300A2A11BFDAC8600E38D08 /* NavigationBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NavigationBarViewController.m; path = ../NavigationBarViewController.m; sourceTree = "<group>"; };
+		8300A2A21BFDAC8600E38D08 /* NavigationBarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NavigationBarViewController.xib; path = ../NavigationBarViewController.xib; sourceTree = "<group>"; };
 		83538F611BFC2C85007D547C /* BEA_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BEA_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83538F651BFC2C85007D547C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		83538F671BFC2C85007D547C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +62,12 @@
 		83538F851BFC2C85007D547C /* BEA_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BEA_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83538F891BFC2C85007D547C /* BEA_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BEA_DemoUITests.m; sourceTree = "<group>"; };
 		83538F8B1BFC2C85007D547C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83538F9B1BFC4B48007D547C /* bea_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bea_icon.png; sourceTree = "<group>"; };
+		83538F9C1BFC4B48007D547C /* bea_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bea_icon@2x.png"; sourceTree = "<group>"; };
+		83538F9D1BFC4B48007D547C /* bea_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bea_icon@3x.png"; sourceTree = "<group>"; };
+		83538FA11BFC55E2007D547C /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		83538FA21BFC55E2007D547C /* menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu@2x.png"; sourceTree = "<group>"; };
+		83538FA31BFC55E2007D547C /* menu@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +118,9 @@
 		83538F631BFC2C85007D547C /* BEA_Demo */ = {
 			isa = PBXGroup;
 			children = (
+				8300A2A01BFDAC8600E38D08 /* NavigationBarViewController.h */,
+				8300A2A11BFDAC8600E38D08 /* NavigationBarViewController.m */,
+				8300A2A21BFDAC8600E38D08 /* NavigationBarViewController.xib */,
 				83538F671BFC2C85007D547C /* AppDelegate.h */,
 				83538F681BFC2C85007D547C /* AppDelegate.m */,
 				83538F6A1BFC2C85007D547C /* ViewController.h */,
@@ -109,6 +129,7 @@
 				83538F701BFC2C85007D547C /* Assets.xcassets */,
 				83538F721BFC2C85007D547C /* LaunchScreen.storyboard */,
 				83538F751BFC2C85007D547C /* Info.plist */,
+				83538F9A1BFC4B48007D547C /* Resource */,
 				83538F641BFC2C85007D547C /* Supporting Files */,
 			);
 			path = BEA_Demo;
@@ -138,6 +159,19 @@
 				83538F8B1BFC2C85007D547C /* Info.plist */,
 			);
 			path = BEA_DemoUITests;
+			sourceTree = "<group>";
+		};
+		83538F9A1BFC4B48007D547C /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				83538FA11BFC55E2007D547C /* menu.png */,
+				83538FA21BFC55E2007D547C /* menu@2x.png */,
+				83538FA31BFC55E2007D547C /* menu@3x.png */,
+				83538F9B1BFC4B48007D547C /* bea_icon.png */,
+				83538F9C1BFC4B48007D547C /* bea_icon@2x.png */,
+				83538F9D1BFC4B48007D547C /* bea_icon@3x.png */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,7 +241,6 @@
 				TargetAttributes = {
 					83538F601BFC2C85007D547C = {
 						CreatedOnToolsVersion = 7.1;
-						DevelopmentTeam = 6Q9L5UX4R6;
 					};
 					83538F791BFC2C85007D547C = {
 						CreatedOnToolsVersion = 7.1;
@@ -247,8 +280,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				83538F741BFC2C85007D547C /* LaunchScreen.storyboard in Resources */,
+				83538F9F1BFC4B48007D547C /* bea_icon@2x.png in Resources */,
+				8300A2A41BFDAC8600E38D08 /* NavigationBarViewController.xib in Resources */,
 				83538F711BFC2C85007D547C /* Assets.xcassets in Resources */,
 				83538F6F1BFC2C85007D547C /* Main.storyboard in Resources */,
+				83538FA41BFC55E2007D547C /* menu.png in Resources */,
+				83538FA51BFC55E2007D547C /* menu@2x.png in Resources */,
+				83538F9E1BFC4B48007D547C /* bea_icon.png in Resources */,
+				83538FA61BFC55E2007D547C /* menu@3x.png in Resources */,
+				83538FA01BFC4B48007D547C /* bea_icon@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +313,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8300A2A31BFDAC8600E38D08 /* NavigationBarViewController.m in Sources */,
 				83538F6C1BFC2C85007D547C /* ViewController.m in Sources */,
 				83538F691BFC2C85007D547C /* AppDelegate.m in Sources */,
 				83538F661BFC2C85007D547C /* main.m in Sources */,
@@ -416,10 +457,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = BEA_Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "bea.BEA-Demo";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chibi.pd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -427,10 +471,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = BEA_Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "bea.BEA-Demo";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chibi.pd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -501,6 +548,7 @@
 				83538F901BFC2C85007D547C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		83538F911BFC2C85007D547C /* Build configuration list for PBXNativeTarget "BEA_DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +557,7 @@
 				83538F931BFC2C85007D547C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		83538F941BFC2C85007D547C /* Build configuration list for PBXNativeTarget "BEA_DemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +566,7 @@
 				83538F961BFC2C85007D547C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

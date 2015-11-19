@@ -1,25 +1,76 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="DQG-4q-L8I">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Navigation Controller-->
+        <scene sceneID="KZU-6c-ZGf">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <navigationController id="DQG-4q-L8I" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="L3U-qt-sG2">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Sg2-fp-KrQ" kind="relationship" relationship="rootViewController" id="KtD-fp-dUn"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f9p-gT-Hdo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-268" y="308"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="81h-aA-ALn">
+            <objects>
+                <viewController id="Sg2-fp-KrQ" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="W4c-jE-WSg"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ot7-1z-IXC"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="ECK-2Q-PoI">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QGf-A9-mMb">
+                                <rect key="frame" x="20" y="64" width="187" height="30"/>
+                                <state key="normal" title="Wealth"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OYG-Dn-5HM">
+                                <rect key="frame" x="207" y="64" width="186" height="30"/>
+                                <state key="normal" title="Banking"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6UG-lU-8bJ">
+                                <rect key="frame" x="393" y="64" width="187" height="30"/>
+                                <state key="normal" title="LifeStyle"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="6UG-lU-8bJ" firstAttribute="leading" secondItem="OYG-Dn-5HM" secondAttribute="trailing" id="BGs-By-795"/>
+                            <constraint firstItem="QGf-A9-mMb" firstAttribute="top" secondItem="W4c-jE-WSg" secondAttribute="bottom" id="CeK-gW-4o3"/>
+                            <constraint firstItem="QGf-A9-mMb" firstAttribute="leading" secondItem="ECK-2Q-PoI" secondAttribute="leadingMargin" id="LvM-hp-zXt"/>
+                            <constraint firstItem="QGf-A9-mMb" firstAttribute="height" secondItem="OYG-Dn-5HM" secondAttribute="height" id="PEb-C0-dVF"/>
+                            <constraint firstItem="OYG-Dn-5HM" firstAttribute="width" secondItem="6UG-lU-8bJ" secondAttribute="width" id="YAT-ag-9L8"/>
+                            <constraint firstItem="OYG-Dn-5HM" firstAttribute="height" secondItem="6UG-lU-8bJ" secondAttribute="height" id="djT-gi-3HA"/>
+                            <constraint firstItem="OYG-Dn-5HM" firstAttribute="leading" secondItem="QGf-A9-mMb" secondAttribute="trailing" id="fTE-1i-EbB"/>
+                            <constraint firstItem="QGf-A9-mMb" firstAttribute="top" secondItem="OYG-Dn-5HM" secondAttribute="top" id="hoc-yK-FLi"/>
+                            <constraint firstItem="QGf-A9-mMb" firstAttribute="width" secondItem="OYG-Dn-5HM" secondAttribute="width" id="opL-Us-neh"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="6UG-lU-8bJ" secondAttribute="trailing" id="rXF-mV-QHr"/>
+                            <constraint firstItem="OYG-Dn-5HM" firstAttribute="top" secondItem="6UG-lU-8bJ" secondAttribute="top" id="reo-qP-gpx"/>
+                        </constraints>
                     </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="J9z-So-XVN">
+                        <nil key="title"/>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eOG-VD-tIr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="421" y="31"/>
         </scene>
     </scenes>
 </document>

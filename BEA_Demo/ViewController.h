@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "NavigationBarViewController.h"
 
 @interface ViewController : UIViewController
 
+@property(nonatomic,strong) NavigationBarViewController *beaNavigationBar;
 
 @end
 
