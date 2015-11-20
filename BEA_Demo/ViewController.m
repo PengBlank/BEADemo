@@ -21,10 +21,19 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
+    [self setNeedsStatusBarAppearanceUpdate];
     self.beaNavigationBar = [NavigationBarViewController getInstance];
+    self.pageControl = [PageControllerViewController getInstance];
     self.navigationController.navigationBar.hidden = YES;
-    [self.view addSubview:_beaNavigationBar.view];
+    UIView *statusBarView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width,20)];
     
+    [statusBarView setBackgroundColor:[UIColor blackColor]];
+    
+    [self.view addSubview:statusBarView];
+ 
+    [self.view addSubview:_beaNavigationBar.view];
+    [self.view addSubview:_pageControl.view];
+
 
 }
 
@@ -35,6 +44,13 @@
 
 
 - (void)viewDidLayoutSubviews{
-     self.beaNavigationBar.view.frame = CGRectMake(0, 0, self.view.frame.size.width, 45);
+    self.beaNavigationBar.view.frame = CGRectMake(0, 20, self.view.frame.size.width, 44);
+    self.pageControl.view.frame = CGRectMake(0, 64, self.view.frame.size.width, 44);
+}
+
+- (UIStatusBarStyle)preferredStatusBarStyle{
+    
+    return UIStatusBarStyleLightContent;
+    
 }
 @end

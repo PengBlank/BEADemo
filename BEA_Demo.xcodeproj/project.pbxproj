@@ -23,6 +23,8 @@
 		83538FA41BFC55E2007D547C /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 83538FA11BFC55E2007D547C /* menu.png */; };
 		83538FA51BFC55E2007D547C /* menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83538FA21BFC55E2007D547C /* menu@2x.png */; };
 		83538FA61BFC55E2007D547C /* menu@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83538FA31BFC55E2007D547C /* menu@3x.png */; };
+		83C626431BFEED67007C00EB /* PageControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C626411BFEED67007C00EB /* PageControllerViewController.m */; };
+		83C626441BFEED67007C00EB /* PageControllerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83C626421BFEED67007C00EB /* PageControllerViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +70,9 @@
 		83538FA11BFC55E2007D547C /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
 		83538FA21BFC55E2007D547C /* menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu@2x.png"; sourceTree = "<group>"; };
 		83538FA31BFC55E2007D547C /* menu@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu@3x.png"; sourceTree = "<group>"; };
+		83C626401BFEED67007C00EB /* PageControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageControllerViewController.h; sourceTree = "<group>"; };
+		83C626411BFEED67007C00EB /* PageControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageControllerViewController.m; sourceTree = "<group>"; };
+		83C626421BFEED67007C00EB /* PageControllerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PageControllerViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +123,9 @@
 		83538F631BFC2C85007D547C /* BEA_Demo */ = {
 			isa = PBXGroup;
 			children = (
+				83C626401BFEED67007C00EB /* PageControllerViewController.h */,
+				83C626411BFEED67007C00EB /* PageControllerViewController.m */,
+				83C626421BFEED67007C00EB /* PageControllerViewController.xib */,
 				8300A2A01BFDAC8600E38D08 /* NavigationBarViewController.h */,
 				8300A2A11BFDAC8600E38D08 /* NavigationBarViewController.m */,
 				8300A2A21BFDAC8600E38D08 /* NavigationBarViewController.xib */,
@@ -283,6 +291,7 @@
 				83538F9F1BFC4B48007D547C /* bea_icon@2x.png in Resources */,
 				8300A2A41BFDAC8600E38D08 /* NavigationBarViewController.xib in Resources */,
 				83538F711BFC2C85007D547C /* Assets.xcassets in Resources */,
+				83C626441BFEED67007C00EB /* PageControllerViewController.xib in Resources */,
 				83538F6F1BFC2C85007D547C /* Main.storyboard in Resources */,
 				83538FA41BFC55E2007D547C /* menu.png in Resources */,
 				83538FA51BFC55E2007D547C /* menu@2x.png in Resources */,
@@ -315,6 +324,7 @@
 			files = (
 				8300A2A31BFDAC8600E38D08 /* NavigationBarViewController.m in Sources */,
 				83538F6C1BFC2C85007D547C /* ViewController.m in Sources */,
+				83C626431BFEED67007C00EB /* PageControllerViewController.m in Sources */,
 				83538F691BFC2C85007D547C /* AppDelegate.m in Sources */,
 				83538F661BFC2C85007D547C /* main.m in Sources */,
 			);

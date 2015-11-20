@@ -12,21 +12,15 @@
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="g9n-BV-80D">
-            <rect key="frame" x="0.0" y="0.0" width="320" height="45"/>
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ci6-gr-Ws3">
-                    <rect key="frame" x="8" y="0.0" width="52" height="44"/>
+                    <rect key="frame" x="0.0" y="0.0" width="65" height="44"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="44" id="w5E-KM-kiT"/>
                     </constraints>
                     <state key="normal" image="menu.png"/>
-                </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sj4-Ci-K7N">
-                    <rect key="frame" x="266" y="0.0" width="46" height="45"/>
-                    <state key="normal" image="menu.png">
-                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </state>
                 </button>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bea_icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="6CZ-X7-nhQ">
                     <rect key="frame" x="95" y="0.0" width="130" height="45"/>
@@ -35,13 +29,19 @@
                         <constraint firstAttribute="width" constant="130" id="wlk-0x-BL8"/>
                     </constraints>
                 </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sj4-Ci-K7N">
+                    <rect key="frame" x="255" y="0.0" width="65" height="44"/>
+                    <state key="normal" image="menu.png">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstItem="Ci6-gr-Ws3" firstAttribute="leading" secondItem="g9n-BV-80D" secondAttribute="leading" constant="8" id="3Jk-id-drY"/>
-                <constraint firstItem="6CZ-X7-nhQ" firstAttribute="leading" secondItem="Ci6-gr-Ws3" secondAttribute="trailing" constant="35" id="4f8-8n-wPk"/>
-                <constraint firstAttribute="trailing" secondItem="sj4-Ci-K7N" secondAttribute="trailing" constant="8" id="4wi-dQ-xmc"/>
-                <constraint firstItem="sj4-Ci-K7N" firstAttribute="leading" secondItem="6CZ-X7-nhQ" secondAttribute="trailing" constant="41" id="9Js-Qm-FNC"/>
+                <constraint firstItem="Ci6-gr-Ws3" firstAttribute="leading" secondItem="g9n-BV-80D" secondAttribute="leading" id="3Jk-id-drY"/>
+                <constraint firstItem="6CZ-X7-nhQ" firstAttribute="leading" secondItem="Ci6-gr-Ws3" secondAttribute="trailing" constant="30" id="4f8-8n-wPk"/>
+                <constraint firstAttribute="trailing" secondItem="sj4-Ci-K7N" secondAttribute="trailing" id="4wi-dQ-xmc"/>
+                <constraint firstItem="sj4-Ci-K7N" firstAttribute="leading" secondItem="6CZ-X7-nhQ" secondAttribute="trailing" constant="30" id="9Js-Qm-FNC"/>
                 <constraint firstItem="6CZ-X7-nhQ" firstAttribute="centerX" secondItem="g9n-BV-80D" secondAttribute="centerX" id="SsT-Kh-hbU"/>
                 <constraint firstAttribute="bottom" secondItem="sj4-Ci-K7N" secondAttribute="bottom" id="V65-TG-Gjp"/>
                 <constraint firstItem="6CZ-X7-nhQ" firstAttribute="top" secondItem="g9n-BV-80D" secondAttribute="top" id="buO-hn-0lP"/>
