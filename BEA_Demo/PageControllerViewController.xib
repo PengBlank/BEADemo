@@ -15,66 +15,65 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="45"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vk7-rL-IYk">
-                    <rect key="frame" x="0.0" y="5" width="71" height="30"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vk7-rL-IYk">
+                    <rect key="frame" x="0.0" y="5" width="73" height="30"/>
                     <state key="normal" title="Wealth">
                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R9C-2S-9wj">
-                    <rect key="frame" x="241" y="5" width="71" height="30"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R9C-2S-9wj">
+                    <rect key="frame" x="247" y="5" width="73" height="30"/>
                     <state key="normal" title="LifeStyle">
                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                 </button>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z4e-0g-ugU" userLabel="Wealth Line">
-                    <rect key="frame" x="0.0" y="40" width="73" height="1"/>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="1" id="C2B-HU-GVH"/>
-                    </constraints>
-                </view>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zk3-x7-yLu" userLabel="Banking Line">
-                    <rect key="frame" x="123" y="40" width="74" height="1"/>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="1" id="y19-yz-QWm"/>
-                    </constraints>
-                </view>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yJr-xH-eV2" userLabel="LifeStyle Line">
-                    <rect key="frame" x="247" y="40" width="73" height="1"/>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="1" id="V26-yc-4uE"/>
-                    </constraints>
-                </view>
-                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ig4-hF-gDH">
-                    <rect key="frame" x="121" y="5" width="70" height="30"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ig4-hF-gDH">
+                    <rect key="frame" x="123" y="5" width="74" height="30"/>
                     <state key="normal" title="Banking">
                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                 </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z4e-0g-ugU" userLabel="Wealth Line">
+                    <rect key="frame" x="12" y="40" width="50" height="1"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="C2B-HU-GVH"/>
+                        <constraint firstAttribute="width" constant="50" id="C9C-Ji-d1Y"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zk3-x7-yLu" userLabel="Banking Line">
+                    <rect key="frame" x="135" y="40" width="50" height="1"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="H7V-xd-iOM"/>
+                        <constraint firstAttribute="height" constant="1" id="y19-yz-QWm"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yJr-xH-eV2" userLabel="LifeStyle Line">
+                    <rect key="frame" x="258" y="40" width="50" height="1"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="V26-yc-4uE"/>
+                        <constraint firstAttribute="width" constant="50" id="c98-ic-r0m"/>
+                    </constraints>
+                </view>
             </subviews>
             <color key="backgroundColor" red="0.76862745099999996" green="0.16078431369999999" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
                 <constraint firstItem="ig4-hF-gDH" firstAttribute="leading" secondItem="vk7-rL-IYk" secondAttribute="trailing" constant="50" id="0eb-17-Fes"/>
                 <constraint firstItem="ig4-hF-gDH" firstAttribute="top" secondItem="R9C-2S-9wj" secondAttribute="top" id="1eh-bT-LJw"/>
+                <constraint firstItem="z4e-0g-ugU" firstAttribute="centerX" secondItem="vk7-rL-IYk" secondAttribute="centerX" id="4Pq-3j-W6x"/>
                 <constraint firstItem="vk7-rL-IYk" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="88Y-q4-7rT"/>
-                <constraint firstItem="zk3-x7-yLu" firstAttribute="trailing" secondItem="ig4-hF-gDH" secondAttribute="trailing" id="8y1-qN-iaT"/>
-                <constraint firstItem="z4e-0g-ugU" firstAttribute="leading" secondItem="vk7-rL-IYk" secondAttribute="leading" id="DAl-li-Lem"/>
+                <constraint firstItem="yJr-xH-eV2" firstAttribute="centerX" secondItem="R9C-2S-9wj" secondAttribute="centerX" id="CoT-js-P9A"/>
                 <constraint firstAttribute="trailing" secondItem="R9C-2S-9wj" secondAttribute="trailing" id="KWe-YN-RYT"/>
                 <constraint firstItem="vk7-rL-IYk" firstAttribute="height" secondItem="ig4-hF-gDH" secondAttribute="height" id="NUG-kj-EYm"/>
-                <constraint firstItem="zk3-x7-yLu" firstAttribute="leading" secondItem="ig4-hF-gDH" secondAttribute="leading" id="OlV-ha-PEm"/>
-                <constraint firstAttribute="trailing" secondItem="yJr-xH-eV2" secondAttribute="trailing" constant="8" id="PdP-5B-Xg0"/>
                 <constraint firstItem="vk7-rL-IYk" firstAttribute="width" secondItem="ig4-hF-gDH" secondAttribute="width" id="YM3-kp-1Db"/>
                 <constraint firstItem="vk7-rL-IYk" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="5" id="a40-fG-MsM"/>
                 <constraint firstItem="ig4-hF-gDH" firstAttribute="height" secondItem="R9C-2S-9wj" secondAttribute="height" id="cgH-5z-bkR"/>
-                <constraint firstItem="yJr-xH-eV2" firstAttribute="trailing" secondItem="R9C-2S-9wj" secondAttribute="trailing" id="dbT-VR-1gS"/>
+                <constraint firstItem="zk3-x7-yLu" firstAttribute="centerX" secondItem="ig4-hF-gDH" secondAttribute="centerX" id="eua-1v-vG2"/>
                 <constraint firstItem="yJr-xH-eV2" firstAttribute="top" secondItem="R9C-2S-9wj" secondAttribute="bottom" constant="5" id="fSc-T6-HKg"/>
                 <constraint firstItem="R9C-2S-9wj" firstAttribute="leading" secondItem="ig4-hF-gDH" secondAttribute="trailing" constant="50" id="gCY-mf-VEW"/>
-                <constraint firstItem="z4e-0g-ugU" firstAttribute="trailing" secondItem="vk7-rL-IYk" secondAttribute="trailing" id="hLv-IF-7s7"/>
-                <constraint firstItem="yJr-xH-eV2" firstAttribute="leading" secondItem="R9C-2S-9wj" secondAttribute="leading" id="hpa-c7-p8K"/>
                 <constraint firstItem="z4e-0g-ugU" firstAttribute="top" secondItem="vk7-rL-IYk" secondAttribute="bottom" constant="5" id="mwY-uU-c6g"/>
                 <constraint firstAttribute="bottom" secondItem="zk3-x7-yLu" secondAttribute="bottom" constant="4" id="qgt-dI-bvO"/>
                 <constraint firstItem="vk7-rL-IYk" firstAttribute="top" secondItem="ig4-hF-gDH" secondAttribute="top" id="shI-jk-Di9"/>
