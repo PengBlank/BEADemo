@@ -44,8 +44,8 @@
 
 
 - (void)viewDidLayoutSubviews{
-    self.beaNavigationBar.view.frame = CGRectMake(0, 20, self.view.frame.size.width, 44);
-    self.pageControl.view.frame = CGRectMake(0, 64, self.view.frame.size.width, 44);
+    self.beaNavigationBar.view.frame = CGRectMake(0, 20, self.view.frame.size.width, self.beaNavigationBar.view.frame.size.height);
+    self.pageControl.view.frame = CGRectMake(0, 65, self.view.frame.size.width, self.pageControl.view.frame.size.height);
 }
 
 - (UIStatusBarStyle)preferredStatusBarStyle{
