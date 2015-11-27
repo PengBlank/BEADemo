@@ -1,5 +1,5 @@
 //
-//  BankDashBoardViewController.h
+//  CollectionViewCell.h
 //  BEA_Demo
 //
 //  Created by Dict on 15/11/26.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BankDashBoardViewController : UIViewController
+@interface CollectionViewCell : UICollectionViewCell
 
 @end
