@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BankDashBoardViewController : UIViewController
+@interface BankDashBoardViewController : UIViewController<UICollectionViewDataSource,UICollectionViewDelegate>
+
+@property (weak, nonatomic) IBOutlet UICollectionView *connectionView;
+
+
 
 @end

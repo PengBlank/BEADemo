@@ -9,11 +9,13 @@
 #import <UIKit/UIKit.h>
 #import "NavigationBarViewController.h"
 #import "PageControllerViewController.h"
+#import "BankDashBoardViewController.h"
 
 @interface ViewController : UIViewController
 
 @property(nonatomic,strong) NavigationBarViewController *beaNavigationBar;
 @property(nonatomic,strong) PageControllerViewController *pageControl;
+@property(nonatomic,strong) BankDashBoardViewController *bankDashBoard;
 
 @end
 
