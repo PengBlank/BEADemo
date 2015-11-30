@@ -12,7 +12,10 @@
 
 @end
 
+static  BankDashBoardViewController *bankDashBoard = nil;
+
 @implementation BankDashBoardViewController
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -28,9 +31,16 @@
 }
 
 
++(BankDashBoardViewController *)getInstance{
+    if (!bankDashBoard) {
+        bankDashBoard = [[BankDashBoardViewController alloc]initWithNibName:@"BankDashBoardViewController" bundle:nil];
+    }
+    return bankDashBoard;
+}
+
 #pragma mark: Collection View  DataSource
--(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
-    UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"cellID" forIndexPath:indexPath];
+-(CollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
+    CollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"cellID" forIndexPath:indexPath];
     return cell;
 }
 

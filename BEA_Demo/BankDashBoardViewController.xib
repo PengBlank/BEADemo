@@ -7,7 +7,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BankDashBoardViewController">
             <connections>
-                <outlet property="connectionView" destination="DEf-1H-xze" id="MNN-cI-nqr"/>
+                <outlet property="collectionView" destination="DEf-1H-xze" id="6gW-IW-fTf"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="BjO-FE-EGg"/>
             </connections>
         </placeholder>

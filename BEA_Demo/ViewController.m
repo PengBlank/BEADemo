@@ -24,6 +24,7 @@
     [self setNeedsStatusBarAppearanceUpdate];
     self.beaNavigationBar = [NavigationBarViewController getInstance];
     self.pageControl = [PageControllerViewController getInstance];
+    self.bankDashBoard = [BankDashBoardViewController getInstance];
     self.navigationController.navigationBar.hidden = YES;
     UIView *statusBarView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width,20)];
     

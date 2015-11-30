@@ -7,11 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CollectionViewCell.h"
 
 @interface BankDashBoardViewController : UIViewController<UICollectionViewDataSource,UICollectionViewDelegate>
 
-@property (weak, nonatomic) IBOutlet UICollectionView *connectionView;
+@property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
 
-
++(BankDashBoardViewController *)getInstance;
 
 @end

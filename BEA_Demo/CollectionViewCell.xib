@@ -7,8 +7,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CollectionViewCell">
             <connections>
-                <outlet property="imageView" destination="zyi-u7-6eW" id="GSc-Yo-J57"/>
-                <outlet property="label" destination="S3o-xr-C3N" id="c6g-dw-Yix"/>
+                <outlet property="cellImageView" destination="zyi-u7-6eW" id="n0e-Mb-Cuw"/>
+                <outlet property="cellLabel" destination="S3o-xr-C3N" id="JaS-dF-aax"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
