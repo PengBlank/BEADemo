@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		800CA2AE1C0C8CF100316E3F /* BankDashBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 800CA2A91C0C8CF100316E3F /* BankDashBoardViewController.m */; };
+		800CA2AF1C0C8CF100316E3F /* BankDashBoardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 800CA2AA1C0C8CF100316E3F /* BankDashBoardViewController.xib */; };
+		800CA2B01C0C8CF100316E3F /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 800CA2AC1C0C8CF100316E3F /* CollectionViewCell.m */; };
+		800CA2B11C0C8CF100316E3F /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 800CA2AD1C0C8CF100316E3F /* CollectionViewCell.xib */; };
 		8300A2A31BFDAC8600E38D08 /* NavigationBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8300A2A11BFDAC8600E38D08 /* NavigationBarViewController.m */; };
 		8300A2A41BFDAC8600E38D08 /* NavigationBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8300A2A21BFDAC8600E38D08 /* NavigationBarViewController.xib */; };
 		83538F661BFC2C85007D547C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83538F651BFC2C85007D547C /* main.m */; };
@@ -25,10 +29,6 @@
 		83538FA61BFC55E2007D547C /* menu@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83538FA31BFC55E2007D547C /* menu@3x.png */; };
 		83C626431BFEED67007C00EB /* PageControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C626411BFEED67007C00EB /* PageControllerViewController.m */; };
 		83C626441BFEED67007C00EB /* PageControllerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83C626421BFEED67007C00EB /* PageControllerViewController.xib */; };
-		83EA537B1C06E5570085B547 /* BankDashBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83EA53791C06E5570085B547 /* BankDashBoardViewController.m */; };
-		83EA537C1C06E5570085B547 /* BankDashBoardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83EA537A1C06E5570085B547 /* BankDashBoardViewController.xib */; };
-		83EA53831C06F80E0085B547 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 83EA53811C06F80E0085B547 /* CollectionViewCell.m */; };
-		83EA53841C06F80E0085B547 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83EA53821C06F80E0085B547 /* CollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +49,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		800CA2A81C0C8CF100316E3F /* BankDashBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BankDashBoardViewController.h; sourceTree = "<group>"; };
+		800CA2A91C0C8CF100316E3F /* BankDashBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BankDashBoardViewController.m; sourceTree = "<group>"; };
+		800CA2AA1C0C8CF100316E3F /* BankDashBoardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BankDashBoardViewController.xib; sourceTree = "<group>"; };
+		800CA2AB1C0C8CF100316E3F /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		800CA2AC1C0C8CF100316E3F /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		800CA2AD1C0C8CF100316E3F /* CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
 		8300A2A01BFDAC8600E38D08 /* NavigationBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NavigationBarViewController.h; path = ../NavigationBarViewController.h; sourceTree = "<group>"; };
 		8300A2A11BFDAC8600E38D08 /* NavigationBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NavigationBarViewController.m; path = ../NavigationBarViewController.m; sourceTree = "<group>"; };
 		8300A2A21BFDAC8600E38D08 /* NavigationBarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NavigationBarViewController.xib; path = ../NavigationBarViewController.xib; sourceTree = "<group>"; };
@@ -77,12 +83,6 @@
 		83C626401BFEED67007C00EB /* PageControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageControllerViewController.h; sourceTree = "<group>"; };
 		83C626411BFEED67007C00EB /* PageControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageControllerViewController.m; sourceTree = "<group>"; };
 		83C626421BFEED67007C00EB /* PageControllerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PageControllerViewController.xib; sourceTree = "<group>"; };
-		83EA53781C06E5570085B547 /* BankDashBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BankDashBoardViewController.h; sourceTree = "<group>"; };
-		83EA53791C06E5570085B547 /* BankDashBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BankDashBoardViewController.m; sourceTree = "<group>"; };
-		83EA537A1C06E5570085B547 /* BankDashBoardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BankDashBoardViewController.xib; sourceTree = "<group>"; };
-		83EA53801C06F80E0085B547 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
-		83EA53811C06F80E0085B547 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
-		83EA53821C06F80E0085B547 /* CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,12 +133,12 @@
 		83538F631BFC2C85007D547C /* BEA_Demo */ = {
 			isa = PBXGroup;
 			children = (
-				83EA53781C06E5570085B547 /* BankDashBoardViewController.h */,
-				83EA53791C06E5570085B547 /* BankDashBoardViewController.m */,
-				83EA537A1C06E5570085B547 /* BankDashBoardViewController.xib */,
-				83EA53801C06F80E0085B547 /* CollectionViewCell.h */,
-				83EA53811C06F80E0085B547 /* CollectionViewCell.m */,
-				83EA53821C06F80E0085B547 /* CollectionViewCell.xib */,
+				800CA2A81C0C8CF100316E3F /* BankDashBoardViewController.h */,
+				800CA2A91C0C8CF100316E3F /* BankDashBoardViewController.m */,
+				800CA2AA1C0C8CF100316E3F /* BankDashBoardViewController.xib */,
+				800CA2AB1C0C8CF100316E3F /* CollectionViewCell.h */,
+				800CA2AC1C0C8CF100316E3F /* CollectionViewCell.m */,
+				800CA2AD1C0C8CF100316E3F /* CollectionViewCell.xib */,
 				83C626401BFEED67007C00EB /* PageControllerViewController.h */,
 				83C626411BFEED67007C00EB /* PageControllerViewController.m */,
 				83C626421BFEED67007C00EB /* PageControllerViewController.xib */,
@@ -306,9 +306,9 @@
 				83538F741BFC2C85007D547C /* LaunchScreen.storyboard in Resources */,
 				83538F9F1BFC4B48007D547C /* bea_icon@2x.png in Resources */,
 				8300A2A41BFDAC8600E38D08 /* NavigationBarViewController.xib in Resources */,
-				83EA537C1C06E5570085B547 /* BankDashBoardViewController.xib in Resources */,
+				800CA2AF1C0C8CF100316E3F /* BankDashBoardViewController.xib in Resources */,
 				83538F711BFC2C85007D547C /* Assets.xcassets in Resources */,
-				83EA53841C06F80E0085B547 /* CollectionViewCell.xib in Resources */,
+				800CA2B11C0C8CF100316E3F /* CollectionViewCell.xib in Resources */,
 				83C626441BFEED67007C00EB /* PageControllerViewController.xib in Resources */,
 				83538F6F1BFC2C85007D547C /* Main.storyboard in Resources */,
 				83538FA41BFC55E2007D547C /* menu.png in Resources */,
@@ -345,8 +345,8 @@
 				83C626431BFEED67007C00EB /* PageControllerViewController.m in Sources */,
 				83538F691BFC2C85007D547C /* AppDelegate.m in Sources */,
 				83538F661BFC2C85007D547C /* main.m in Sources */,
-				83EA53831C06F80E0085B547 /* CollectionViewCell.m in Sources */,
-				83EA537B1C06E5570085B547 /* BankDashBoardViewController.m in Sources */,
+				800CA2B01C0C8CF100316E3F /* CollectionViewCell.m in Sources */,
+				800CA2AE1C0C8CF100316E3F /* BankDashBoardViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

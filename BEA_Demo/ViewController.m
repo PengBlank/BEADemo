@@ -47,7 +47,7 @@
 - (void)viewDidLayoutSubviews{
     self.beaNavigationBar.view.frame = CGRectMake(0, 20, self.view.frame.size.width, self.beaNavigationBar.view.frame.size.height);
     self.pageControl.view.frame = CGRectMake(0, 65, self.view.frame.size.width, self.pageControl.view.frame.size.height);
-    self.bankDashBoard.view.frame = CGRectMake(0,110, self.view.frame.size.width, self.bankDashBoard.view.frame.size.height);
+    self.bankDashBoard.view.frame = CGRectMake(0,110, self.view.frame.size.width, self.view.frame.size.height-110);
 }
 
 - (UIStatusBarStyle)preferredStatusBarStyle{

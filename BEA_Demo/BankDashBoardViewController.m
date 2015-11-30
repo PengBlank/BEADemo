@@ -36,6 +36,7 @@ static  BankDashBoardViewController *bankDashBoard = nil;
         bankDashBoard = [[BankDashBoardViewController alloc]initWithNibName:@"BankDashBoardViewController" bundle:nil];
     }
     return bankDashBoard;
+
 }
 
 #pragma mark: Collection View  DataSource
@@ -45,7 +46,7 @@ static  BankDashBoardViewController *bankDashBoard = nil;
 }
 
 -(NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section{
-    return 1;
+    return 10;
 }
 
 /*
