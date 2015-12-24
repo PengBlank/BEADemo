@@ -5,12 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CollectionViewCell">
-            <connections>
-                <outlet property="cellImageView" destination="zyi-u7-6eW" id="n0e-Mb-Cuw"/>
-                <outlet property="cellLabel" destination="S3o-xr-C3N" id="JaS-dF-aax"/>
-            </connections>
-        </placeholder>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CollectionViewCell"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CollectionViewCell">
             <rect key="frame" x="0.0" y="0.0" width="191" height="159"/>
@@ -40,6 +35,10 @@
                 <constraint firstAttribute="trailing" secondItem="S3o-xr-C3N" secondAttribute="trailing" constant="9" id="PEY-dg-MaG"/>
             </constraints>
             <size key="customSize" width="191" height="159"/>
+            <connections>
+                <outlet property="cellImageView" destination="zyi-u7-6eW" id="LOz-Ig-TrA"/>
+                <outlet property="cellLabel" destination="S3o-xr-C3N" id="6Bb-7T-uPE"/>
+            </connections>
             <point key="canvasLocation" x="231.5" y="222.5"/>
         </collectionViewCell>
     </objects>

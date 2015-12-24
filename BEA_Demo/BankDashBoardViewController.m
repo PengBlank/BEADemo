@@ -23,6 +23,8 @@ static  BankDashBoardViewController *bankDashBoard = nil;
     
     [self.collectionView registerNib:[UINib nibWithNibName:@"CollectionViewCell" bundle:nil] forCellWithReuseIdentifier:@"cellID"];
     
+    [self.collectionView setBackgroundColor:[UIColor clearColor]];
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -40,6 +42,7 @@ static  BankDashBoardViewController *bankDashBoard = nil;
 }
 
 #pragma mark: Collection View  DataSource
+
 -(CollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
     CollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"cellID" forIndexPath:indexPath];
     return cell;

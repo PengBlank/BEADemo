@@ -16,8 +16,8 @@
             <rect key="frame" x="0.0" y="0.0" width="363" height="329"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="DEf-1H-xze">
-                    <rect key="frame" x="-15" y="-21" width="426" height="483"/>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="DEf-1H-xze">
+                    <rect key="frame" x="0.0" y="0.0" width="363" height="329"/>
                     <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="ziL-cA-3Kt">
                         <size key="itemSize" width="50" height="50"/>
                         <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -31,6 +31,12 @@
                 </collectionView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="DEf-1H-xze" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="0az-6i-29P"/>
+                <constraint firstItem="DEf-1H-xze" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="QRe-hK-mvr"/>
+                <constraint firstAttribute="trailing" secondItem="DEf-1H-xze" secondAttribute="trailing" id="ZlA-He-g4T"/>
+                <constraint firstAttribute="bottom" secondItem="DEf-1H-xze" secondAttribute="bottom" id="neT-Wf-dP9"/>
+            </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <point key="canvasLocation" x="286.5" y="248.5"/>
         </view>
