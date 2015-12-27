@@ -27,7 +27,9 @@
 
 @property(nonatomic,strong)NSString *bankingName;
 @property(nonatomic,strong)NSString *bankingImage;
-@property(nonatomic,assign)NSUInteger *bankingId;
+@property(nonatomic,assign)NSUInteger bankingId;
+@property(nonatomic,assign)NSInteger currentIndex;
+@property(nonatomic,assign)NSInteger preIndex;
 
 -(id)initBankWithIndex:(NSUInteger )index;
 

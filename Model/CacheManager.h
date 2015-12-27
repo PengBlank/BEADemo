@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <sqlite3.h>
-
+#import "Banking.h"
 
 @interface CacheManager : NSObject{
     sqlite3 *connection;
@@ -20,5 +20,6 @@
 
 
 -(void)initDataBase;
--(void)initData:(sqlite3 *)database;
+-(void)cacheBanking:(Banking *)banking;
+
 @end

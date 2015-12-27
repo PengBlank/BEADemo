@@ -15,15 +15,22 @@
 
 
 -(void)encodeWithCoder:(NSCoder *)aCoder{
+    [aCoder encodeObject:self.bankingName forKey:@"bankingName"];
+    [aCoder encodeObject:self.bankingImage forKey:@"bankingImage"];
+    [aCoder encodeObject:[NSNumber numberWithInt:self.currentIndex] forKey:@"currentIndex"];
+    [aCoder encodeObject:[NSNumber numberWithInt:self.preIndex] forKey:@"preIndex"];
     
 }
 
 -(instancetype)initWithCoder:(NSCoder *)aDecoder{
-    
+    self.preIndex = [aDecoder decodeIntForKey:@"preIndex"];
+    self.currentIndex = [aDecoder decodeIntForKey:@"currentIndex"];
+    self.bankingImage = [aDecoder decodeObjectForKey:@"bankingImage"];
+    self.bankingName = [aDecoder decodeObjectForKey:@"bankingName"];
+    return self;
 }
 
 -(id)initBankWithIndex:(NSUInteger)index{
-
     if ((self = [super init])) {
         switch (index) {
             case 0:

@@ -35,15 +35,25 @@
     
     [self createConnection];
     
-    sqlite3_exec(connection, [@"CREATE TABLE IF NOT EXISTS bankings (id INTEGER PRIMARY KEY,banking BLOB,current_index INTEGER,origin_index INTEGER);" UTF8String],nil,nil,nil);
+    sqlite3_exec(connection, [@"CREATE TABLE IF NOT EXISTS bankings (id INTEGER PRIMARY KEY,banking BLOB,currentIndex INTEGER,originIndex INTEGER);" UTF8String],nil,nil,nil);
     
-    sqlite3_exec(connection, [@"CREATE TABLE IF NOT EXISTS lifestyle (id INTEGER PRIMARY KEY,lifestyle BLOB, lifestyle_id INTEGER);" UTF8String], nil, nil, nil);
+    sqlite3_exec(connection, [@"CREATE TABLE IF NOT EXISTS lifestyle (id INTEGER PRIMARY KEY,lifestyle BLOB, lifestyleId INTEGER);" UTF8String], nil, nil, nil);
     
 }
 
-
-
--(void)initBanking:{
+//将banking存入数据库
+-(void)cacheBanking:(Banking *)banking{
+    [self createConnection];
+    sqlite3_stmt *stmt;
+    if (sqlite3_prepare_v2(connection, [@"insert into bankings(banking,currentIndex,originIndex) values(?,?,?)" UTF8String], -1, &stmt, nil) == SQLITE_OK) {
+        NSData *bankingData = [NSKeyedArchiver archivedDataWithRootObject:banking];
+        sqlite3_bind_blob(stmt, 1, [bankingData bytes], (int)[bankingData length] , nil);
+        sqlite3_bind_int(stmt, 2, (int)banking.currentIndex);
+        sqlite3_bind_int(stmt, 3, (int)banking.preIndex);
+        if (sqlite3_step(stmt) == SQLITE_DONE) {
+            
+        }
+    }
     
 }
 
