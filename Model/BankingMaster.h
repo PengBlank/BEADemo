@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface BankingMaster : NSObject
+@interface BankingMaster : NSObject<NSCoding>
 
 @property(nonatomic,strong)NSArray *bankingArray;
 //@property(nonatomic,)

@@ -11,11 +11,19 @@
 @implementation BankingMaster
 
 -(instancetype)init{
-    self = [super init];
-    if (self) {
+    if (self = [super init]) {
         self.bankingArray = [[NSArray alloc]init];
     }
     return self;
+}
+
+-(void)encodeWithCoder:(NSCoder *)aCoder{
+    [aCoder encodeObject:_bankingArray forKey:@"bankingArray"];
+}
+
+-(instancetype)initWithCoder:(NSCoder *)aDecoder{
+    self.bankingArray = [aDecoder decodeObjectForKey:@"bankingArray"];
+    return  self;
 }
 
 @end

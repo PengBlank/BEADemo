@@ -10,15 +10,13 @@
 
 @implementation Banking
 
-@synthesize bankingImage,bankingName,bankingId;
-
 
 
 -(void)encodeWithCoder:(NSCoder *)aCoder{
     [aCoder encodeObject:self.bankingName forKey:@"bankingName"];
     [aCoder encodeObject:self.bankingImage forKey:@"bankingImage"];
-    [aCoder encodeObject:[NSNumber numberWithInt:self.currentIndex] forKey:@"currentIndex"];
-    [aCoder encodeObject:[NSNumber numberWithInt:self.preIndex] forKey:@"preIndex"];
+    [aCoder encodeObject:[NSNumber numberWithInt:(int)self.currentIndex] forKey:@"currentIndex"];
+    [aCoder encodeObject:[NSNumber numberWithInt:(int)self.preIndex] forKey:@"preIndex"];
     
 }
 
@@ -34,64 +32,88 @@
     if ((self = [super init])) {
         switch (index) {
             case 0:
-                bankingImage = @"banking_table_mobile_banking";
-                bankingName = NSLocalizedString(@"MobileBanking_CP", @"");
-                bankingId = isMobileBanking;
+                _bankingImage = @"banking_table_mobile_banking";
+                _bankingName = NSLocalizedString(@"MobileBanking_CP", @"");
+                _bankingId = isMobileBanking;
+                _currentIndex = index;
+                _preIndex = index;
                 break;
             case 1:
-                bankingImage = @"banking_table_supermegold";
-                bankingName = NSLocalizedString(@"SupremeGold_CP", @"");
-                bankingId = isSupermegold;
+                _bankingImage = @"banking_table_supermegold";
+                _bankingName = NSLocalizedString(@"SupremeGold_CP", @"");
+                _bankingId = isSupermegold;
+                _currentIndex = index;
+                _preIndex = index;
                 break;
             case 2:
-                bankingImage = @"banking_table_more_card";
-                bankingName = NSLocalizedString(@"CreditCatd_CP", @"");
-                bankingId = isCreditCatd;
+                _bankingImage = @"banking_table_more_card";
+                _bankingName = NSLocalizedString(@"CreditCatd_CP", @"");
+                _bankingId = isCreditCatd;
+                _currentIndex = index;
+                _preIndex = index;
                 break;
             case 3:
-                bankingImage = @"banking_table_consumer";
-                bankingName = NSLocalizedString(@"ConsumerLoans_CP", @"");
-                bankingId = isConsumerLoan;
+                _bankingImage = @"banking_table_consumer";
+                _bankingName = NSLocalizedString(@"ConsumerLoans_CP", @"");
+                _bankingId = isConsumerLoan;
+                _currentIndex = index;
+                _preIndex = index;
                 break;
             case 4:
-                bankingImage = @"banking_table_property";
-                bankingName = NSLocalizedString(@"PropertyLoans_CP", @"");
-                bankingId = isPropertyLoans;
+                _bankingImage = @"banking_table_property";
+                _bankingName = NSLocalizedString(@"PropertyLoans_CP", @"");
+                _bankingId = isPropertyLoans;
+                _currentIndex = index;
+                _preIndex = index;
                 break;
             case 5:
-                bankingImage = @"banking_table_insurance";
-                bankingName = NSLocalizedString(@"Insurance_CP", @"");
-                bankingId =  isInsurance;
+                _bankingImage = @"banking_table_insurance";
+                _bankingName = NSLocalizedString(@"Insurance_CP", @"");
+                _bankingId =  isInsurance;
+                _currentIndex = index;
+                _preIndex = index;
                 break;
             case 6:
-                bankingImage = @"banking_table_mpf";
-                bankingName = NSLocalizedString(@"MPF_CP", @"");
-                bankingId =  isMPF;
+                _bankingImage = @"banking_table_mpf";
+                _bankingName = NSLocalizedString(@"MPF_CP", @"");
+                _bankingId =  isMPF;
+                _currentIndex = index;
+                _preIndex = index;
                 break;
             case 7:
-                bankingImage = @"banking_table_privileges";
-                bankingName = NSLocalizedString(@"Privileges_CP", @"");
-                bankingId = isPrivileges;
+                _bankingImage = @"banking_table_privileges";
+                _bankingName = NSLocalizedString(@"Privileges_CP", @"");
+                _bankingId = isPrivileges;
+                _currentIndex = index;
+                _preIndex = index;
                 break;
             case 8:
-                bankingImage = @"banking_table_stocks";
-                bankingName = NSLocalizedString(@"P2P_CP", @"");
-                bankingId = isP2P;
+                _bankingImage = @"banking_table_stocks";
+                _bankingName = NSLocalizedString(@"P2P_CP", @"");
+                _bankingId = isP2P;
+                _currentIndex = index;
+                _preIndex = index;
                 break;
             case 9:
-                bankingImage = @"banking_table_atm_branch";
-                bankingName = NSLocalizedString(@"BranchAtm_CP", @"");
-                bankingId = isBranchAtm;
+                _bankingImage = @"banking_table_atm_branch";
+                _bankingName = NSLocalizedString(@"BranchAtm_CP", @"");
+                _bankingId = isBranchAtm;
+                _currentIndex = index;
+                _preIndex = index;
                 break;
             case 10:
-                bankingImage = @"banking_table_hotline";
-                bankingName = NSLocalizedString(@"Hotlines_CP", @"");
-                bankingId = isHotlines;
+                _bankingImage = @"banking_table_hotline";
+                _bankingName = NSLocalizedString(@"Hotlines_CP", @"");
+                _bankingId = isHotlines;
+                _currentIndex = index;
+                _preIndex = index;
                 break;
             case 11:
-                bankingImage = @"banking_table_facebook";
-                bankingName = NSLocalizedString(@"FacebookPages_CP", @"");
-                bankingId = isFacebook;
+                _bankingImage = @"banking_table_facebook";
+                _bankingName = NSLocalizedString(@"FacebookPages_CP", @"");
+                _bankingId = isFacebook;
+                _currentIndex = index;
+                _preIndex = index;
                 break;
             default:
                 break;

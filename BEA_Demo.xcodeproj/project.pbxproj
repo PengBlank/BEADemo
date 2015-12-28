@@ -138,7 +138,6 @@
 		83538F581BFC2C85007D547C = {
 			isa = PBXGroup;
 			children = (
-				83153EBA1C16D798004D24D9 /* libsqlite3.tbd */,
 				83153EB01C167143004D24D9 /* Model */,
 				83538F631BFC2C85007D547C /* BEA_Demo */,
 				83538F7D1BFC2C85007D547C /* BEA_DemoTests */,
@@ -189,6 +188,7 @@
 		83538F641BFC2C85007D547C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				83153EBA1C16D798004D24D9 /* libsqlite3.tbd */,
 				83538F651BFC2C85007D547C /* main.m */,
 			);
 			name = "Supporting Files";

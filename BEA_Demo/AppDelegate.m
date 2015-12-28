@@ -7,6 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import "Banking.h"
+#import "BankingMaster.h"
+#import "CacheManager.h"
+
 
 @interface AppDelegate ()
 
@@ -14,6 +18,28 @@
 
 @implementation AppDelegate
 
+
+
+
+-(void)createAllBanking{
+    BankingMaster *master = [[BankingMaster alloc]init];
+    NSMutableArray *bankings = [[NSMutableArray alloc]init];
+    [bankings addObject:[[Banking alloc]initBankWithIndex:0]];
+    [bankings addObject:[[Banking alloc]initBankWithIndex:1]];
+    [bankings addObject:[[Banking alloc]initBankWithIndex:2]];
+    [bankings addObject:[[Banking alloc]initBankWithIndex:3]];
+    [bankings addObject:[[Banking alloc]initBankWithIndex:4]];
+    [bankings addObject:[[Banking alloc]initBankWithIndex:5]];
+    [bankings addObject:[[Banking alloc]initBankWithIndex:6]];
+    [bankings addObject:[[Banking alloc]initBankWithIndex:7]];
+    [bankings addObject:[[Banking alloc]initBankWithIndex:8]];
+    [bankings addObject:[[Banking alloc]initBankWithIndex:9]];
+    [bankings addObject:[[Banking alloc]initBankWithIndex:10]];
+    [bankings addObject:[[Banking alloc]initBankWithIndex:11]];
+    master.bankingArray = bankings;
+    self.cacheManager = [CacheManager getInstace];//remember to assign a value!!!
+    [self.cacheManager cacheBankingMaster:master];
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
@@ -46,6 +72,7 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+    [self.cacheManager closeDB];
 }
 
 @end
