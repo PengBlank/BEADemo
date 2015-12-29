@@ -10,6 +10,10 @@
 
 @interface BankDashBoardViewController ()
 
+@property(nonatomic, strong)NSArray *bankingForCollectionArray;
+@property(nonatomic, strong)CacheManager *cacheManager;
+@property(nonatomic, strong)BankingMaster *master;
+
 @end
 
 static  BankDashBoardViewController *bankDashBoard = nil;
@@ -17,14 +21,18 @@ static  BankDashBoardViewController *bankDashBoard = nil;
 @implementation BankDashBoardViewController
 
 
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    
     [self.collectionView registerNib:[UINib nibWithNibName:@"CollectionViewCell" bundle:nil] forCellWithReuseIdentifier:@"cellID"];
     
-    [self.collectionView setBackgroundColor:[UIColor clearColor]];
     
+    
+    _cacheManager = [CacheManager getInstance];
+    _master = [_cacheManager getBankingMaster];
+    self.bankingForCollectionArray = _master.bankingArray;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -45,11 +53,16 @@ static  BankDashBoardViewController *bankDashBoard = nil;
 
 -(CollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
     CollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"cellID" forIndexPath:indexPath];
+    Banking *banking =[self.bankingForCollectionArray objectAtIndex:indexPath.row];
+    
+    [cell.cellImageView setImage:[UIImage imageNamed:NSLocalizedString(banking.bankingImage, @"")]];
+    [cell.cellLabel setText:banking.bankingName];
+    
     return cell;
 }
 
 -(NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section{
-    return 10;
+    return 12;
 }
 
 /*

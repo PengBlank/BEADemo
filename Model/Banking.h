@@ -27,10 +27,10 @@
 
 @property(nonatomic,strong)NSString *bankingName;
 @property(nonatomic,strong)NSString *bankingImage;
-@property(nonatomic,assign)NSUInteger bankingId;
-@property(nonatomic,assign)NSInteger currentIndex;
-@property(nonatomic,assign)NSInteger preIndex;
+@property(nonatomic,assign)int bankingId;
+@property(nonatomic,assign)int currentIndex;
+@property(nonatomic,assign)int preIndex;
 
--(id)initBankWithIndex:(NSUInteger )index;
+-(id)initBankWithIndex:(int)index;
 
 @end

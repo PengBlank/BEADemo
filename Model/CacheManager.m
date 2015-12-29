@@ -12,6 +12,7 @@
 
 @implementation CacheManager
 
+@synthesize connection;
 
 static CacheManager *cacheManager = nil;
 

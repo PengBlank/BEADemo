@@ -13,18 +13,20 @@
 
 
 
-@interface CacheManager : NSObject{
-    sqlite3 *connection;
-}
+@interface CacheManager : NSObject
 
 
+@property(nonatomic,assign) sqlite3 *connection;
 @property(nonatomic,strong) NSString *databasePath;
 //@property(nonatomic,strong) NSString *databaseName;
 
-+(id)getInstace;
--(void)initDataBase;
++(id)getInstance;
+-(void)initDataBase:(NSString *)databaseName;
 -(void)closeDB;
 -(void)cacheBanking:(Banking *)banking;
 -(void)cacheBankingMaster:(BankingMaster *)master;
 -(BankingMaster *)getBankingMaster;
+
+
+
 @end

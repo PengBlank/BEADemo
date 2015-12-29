@@ -37,7 +37,8 @@
     [bankings addObject:[[Banking alloc]initBankWithIndex:10]];
     [bankings addObject:[[Banking alloc]initBankWithIndex:11]];
     master.bankingArray = bankings;
-    self.cacheManager = [CacheManager getInstace];//remember to assign a value!!!
+    self.cacheManager = [CacheManager getInstance];//remember to assign a value!!!
+    [self.cacheManager initDataBase:@"BEA"];
     [self.cacheManager cacheBankingMaster:master];
 }
 
@@ -47,7 +48,7 @@
     
     [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
     
- 
+    [self createAllBanking];
     
     return YES;
 }

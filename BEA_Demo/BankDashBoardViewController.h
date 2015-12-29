@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import "CollectionViewCell.h"
+#import "CacheManager.h"
+#import "Banking.h"
 
 @interface BankDashBoardViewController : UIViewController<UICollectionViewDataSource,UICollectionViewDelegate>
 

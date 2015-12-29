@@ -11,6 +11,6 @@
 @interface BankingMaster : NSObject<NSCoding>
 
 @property(nonatomic,strong)NSArray *bankingArray;
-//@property(nonatomic,)
+@property(nonatomic,strong)NSArray *orderArray;
 
 @end
