@@ -1,0 +1,406 @@
+/* 
+  Localizable.strings
+  BEA_Demo
+
+  Created by Dict on 15/12/30.
+  Copyright © 2015年 Dict. All rights reserved.
+*/
+
+
+"Menu_Acc_Settings" = "Settings";
+"Menu_Acc_Menu_CP" = "Menu";
+
+
+//"lang" ="lang";
+"MobileBanking_CP" = "Mobile  Banking";
+"SupremeGold_CP" = "SupremeGold";
+"ConsumerLoans_CP" = "Consumer Loans";
+"PropertyLoans_CP" = "Mortgage Loans";
+"Insurance_CP" = "Insurance";
+"MPF_CP" = "MPF";
+"Stocks_CP" = "Stocks";
+"P2P_CP" = "i-P2P";
+"CreditCatd_CP" = "Credit Card";
+"Privileges_CP" = "Hot Offers";
+"BranchAtm_CP" = "Branch/ATM";
+"Hotlines_CP" = "Hotlines";
+"FacebookPages_CP" = "Social Network";
+
+"Funds_CP" = "Funds";
+"Gold_CP" = "Gold";
+"NotesExchangeRates_CP" = "Notes Exchange Rates";
+"TTExchangeRates_CP" = "T/T Exchange Rates";
+"LedingRates_CP" = "Lending Rates";
+"EAS_CP" = "EAS";
+
+"Settings_CP" = "Settings";
+"FAQ_CP" = "FAQ";
+"SecurityTips_CP" = "Security Tips";
+"AccessibilityStatment_CP" = "Accessibility Statment";
+
+"StockWatchFastTrade_CP" = "Stock Watch & Fast Trade";
+
+"mobileservices_CP" ="Mobile Services";
+"language_CP" = "Language";
+"notification_CP" = "notification";
+
+
+"HotPromotion_CP" = "Hot Offers";
+"BookingDetail_CP" = "Booking Details";
+"BOOKNOW_CP" = "BOOK NOW";
+
+"Menu-Favourite_CP" = "Favourites";
+"Menu-Lifestyle_CP" = "Lifestyle";
+"Menu-Banking_CP" = "Banking";
+"Menu-Wealth_CP" = "Wealth";
+"Menu-importantnotice_CP" = "Important Notice";
+"Menu-setting_CP" = "Setting";
+"Menu-Other_CP" = "Other";
+
+"Submenu-MyLifeStyle_CP" = "My Lifestyle";
+"Submenu-MyBanking_CP" = "My Banking";
+
+"Submenu-TapNShop_CP" = "Shopping";
+"Submenu-iCoupon_CP" = "i-Coupon";
+
+"OK-BUTTTON_CP" = "OK";
+"CANCEL-BUTTTON_CP" = "Cancel";
+"YES-BUTTTON_CP" = "Yes";
+"NO-BUTTTON_CP" = "No";
+
+"LifeStyle-HTML-ALERT_TITLE_CP" = "Important";
+"LifeStyle-HTML-ALERT_MESSAGE_CP" = "You are now redirect to third party site";
+
+"Flat_CP" = "Flat";
+"Floor_CP" = "Floor";
+"Block_CP" = "Block";
+"BuildingEst_CP" = "Building / Est";
+"PhaseNo_CP" = "Phase No.";
+"StreetNo_CP" = "Street No.";
+"StreetName_CP" = "Street Name";
+"Region_CP" = "Region";
+"District_CP" = "District";
+
+"Validation_flat_not_empty_CP" = "Flat cannot be empty.";
+"Validation_floor_not_empty_CP" = "Floor cannot be empty.";
+"Validation_building_not_empty_CP" = "Building cannot be empty.";
+"Validation_building_or_street_name_not_empty_CP" = "Please enter building or street name.";
+"Validation_region_not_empty_CP" = "Please select region of delivery address.";
+"Validation_district_not_empty_CP" = "Please select district of delivery address.";
+
+"Validation_name_not_empty_CP" = "Please enter your name.";
+"Validation_email_not_empty_CP" = "Please enter email.";
+"Validation_email_not_valid_CP" = "Email is invalid.";
+"Validation_reservation_not_valid_CP" = "Please select reservation time.";
+"Validation_reservation_three_date_valid_CP" = "Reservation requires 3 days’ advance booking; please reselect your reservation date.";
+"Validation_reservation_date_time_not_valid_CP" = "Reservation Date should greater than ";
+"Validation_weekday_date_time_not_valid_CP" = "Promotion available on Saturday and Sunday only; please reselect your reservation date.";
+"Validation_contact_not_empty_CP" = "Please enter contact number.";
+"Validation_contact_not_valid_CP" = "Contact number is invalid.";
+"Validation_contact_first_number_not_valid_CP" = "Contact number is invalid.";
+"Validation_receipitent_contact_not_valid_CP" = "Recipient's contact number is invalid.";
+"Validation_visitor_contact_not_valid_CP" = "Visitor's contact number is invalid.";
+
+"Warning_CP" = "Warning";
+"CLOSE_CONFIRM_CP" = "Are you sure you want to return to the previous page?";
+
+"Edit_CP" = "Edit";
+"Done_CP" = "Done";
+"Back_CP" = "Back";
+"LifeStyle_MORE_INFO_CP" = "More Information";
+"favourite_CP" = "Favourites";
+
+"tc_CP" = "Terms and Conditions";
+"Name_CP" = "Name";
+"ContactNo_CP" = "Contact No.";
+"Email_CP" = "Email";
+"Name_PLACEHOLDER_CP" = "Tap to enter your name";
+"ContactNo_PLACEHOLDER_CP" = "Tap to enter your contact no.";
+"Email_PLACEHOLDER_CP" = "Tap to enter your email address";
+"Vistor_PLACEHOLDER_CP" = "Tap to enter visitor's name";
+"Vistor_Contact_PLACEHOLDER_CP" = "Tap to enter visitor's contact no.";
+"RECEIPT_PLACEHOLDER_CP" = "Tap to enter recipient's name";
+"RECEIPT_Contact_PLACEHOLDER_CP" = "Tap to enter recipient's contact no.";
+
+"DepartmentDate_CP" = "Departure Date";
+"ReturnDate_CP" = "Return Date";
+"Adult_CP" = "Adults";
+"Children_CP" = "Children";
+"NoOfRooms_CP" = "No. of Rooms";
+"ExtraBed_CP" = "Extra Bed";
+"ReservationDate_CP" = "Reservation Date";
+"Time_CP" ="Time";
+"Location_CP" = "Location";
+"NoOfPerson_CP" = "No. of Persons";
+"Product_CP" = "Product";
+"Quantity_CP" = "Quantity";
+"Address_CP" = "Delivery Address";
+"AddressType_CP" = "Address Type";
+"HealthCheckPlan_CP" = "Services Plan";
+"VisitorName_CP" = "Visitor Name";
+"VisitorContactNo_CP" = "Visitor's Contact No.";
+"HealthCheckLocation_CP" = "Health Check Location";
+"ScheduledDate_CP" = "Scheduled Date";
+"ScheduledTime_CP" = "Scheduled Time";
+"Recipient_CP" = "Recipient";
+"RecipientContactDetails_CP" = "Contact No.";
+
+
+
+"BookingBankingTitle_CP" = "Mobile Banking";
+"BookingBankingTitleProcess_CP" = "Booking Details";
+"BookingBankingTitleSucess_CP" = "Booking Details";
+"BookingBankingTitleError_CP" = "Booking Details";
+"BookingBankingTitleTC_CP" = "Terms and Conditions";
+"BookingBankingTitleDisclaimer_CP" = "Disclaimer";
+"BookingBankingTitlePrivateStatement_CP" = "Privacy Statement";
+
+"DeviceSetting_CP" = "Dashboard Settings";
+"SaveDeviceSetting_CP" = "Done";
+"Remarks_CP" = "Remarks";
+"optional_CP" = "(optional)";
+"TotalAmount_CP" = "Total Amount";
+"DepositAmount_CP" = "Deposit Amount";
+"BookNow_CP" = "Book Now";
+"DifferentAbove_CP" = "(if different from above)";
+"ExpiryDate_CP" = "Expiry Date";
+"HealthReminder_CP" = "This service must be first used within 90 days of its date of purchase (the “validity period”). Please make an appointment directly with Blue Care Medical Centre  to use (or start using) the service within the validity period.  ";
+
+"lifestyle_form_retail_district_hong_kong_island_district_1"="Admiralty";
+"lifestyle_form_retail_district_hong_kong_island_district_2"="Central";
+"lifestyle_form_retail_district_hong_kong_island_district_3"="Kennedy Town";
+"lifestyle_form_retail_district_hong_kong_island_district_4"="Mid-level";
+"lifestyle_form_retail_district_hong_kong_island_district_5"="Sai Ying Pun";
+"lifestyle_form_retail_district_hong_kong_island_district_6"="Shek Tong Tsui";
+"lifestyle_form_retail_district_hong_kong_island_district_7"="Sheung Wan";
+"lifestyle_form_retail_district_hong_kong_island_district_8"="The Peak";
+"lifestyle_form_retail_district_hong_kong_island_district_9"="Causeway Bay";
+"lifestyle_form_retail_district_hong_kong_island_district_10"="Chai Wan";
+"lifestyle_form_retail_district_hong_kong_island_district_11"="Fortress Hill";
+"lifestyle_form_retail_district_hong_kong_island_district_12"="North Point";
+"lifestyle_form_retail_district_hong_kong_island_district_13"="Quarry Bay";
+"lifestyle_form_retail_district_hong_kong_island_district_14"="Sai Wan Ho";
+"lifestyle_form_retail_district_hong_kong_island_district_15"="Shau Kei Wan";
+"lifestyle_form_retail_district_hong_kong_island_district_16"="Siu Sai Wan";
+"lifestyle_form_retail_district_hong_kong_island_district_17"="Tin Hau";
+"lifestyle_form_retail_district_hong_kong_island_district_18"="Aberdeen";
+"lifestyle_form_retail_district_hong_kong_island_district_19"="Ap Lei Chau";
+"lifestyle_form_retail_district_hong_kong_island_district_20"="Chung Hom Kok";
+"lifestyle_form_retail_district_hong_kong_island_district_21"="Deep Water Bay";
+"lifestyle_form_retail_district_hong_kong_island_district_22"="Hok Tsui";
+"lifestyle_form_retail_district_hong_kong_island_district_23"="Pok Fu Lam";
+"lifestyle_form_retail_district_hong_kong_island_district_24"="Repulse Bay";
+"lifestyle_form_retail_district_hong_kong_island_district_25"="Shek O";
+"lifestyle_form_retail_district_hong_kong_island_district_26"="Stanley";
+"lifestyle_form_retail_district_hong_kong_island_district_27"="Tai Tam";
+"lifestyle_form_retail_district_hong_kong_island_district_28"="Happy Valley";
+"lifestyle_form_retail_district_hong_kong_island_district_29"="Jardine's Lookout";
+"lifestyle_form_retail_district_hong_kong_island_district_30"="Tai Hang";
+"lifestyle_form_retail_district_hong_kong_island_district_31"="Wan Chai";
+"lifestyle_form_retail_district_hong_kong_island_district_32"="Wong Chuk Hang";
+"lifestyle_form_retail_district_kowloon_district_1"="Ho Man Tin";
+"lifestyle_form_retail_district_kowloon_district_2"="Hung Hom";
+"lifestyle_form_retail_district_kowloon_district_3"="Kowloon Tong";
+"lifestyle_form_retail_district_kowloon_district_4"="Kowloon City";
+"lifestyle_form_retail_district_kowloon_district_5"="Ma Tau Wai";
+"lifestyle_form_retail_district_kowloon_district_6"="To Kwa Wan";
+"lifestyle_form_retail_district_kowloon_district_7"="Cha Kwo Ling";
+"lifestyle_form_retail_district_kowloon_district_8"="Kowloon Bay";
+"lifestyle_form_retail_district_kowloon_district_9"="Kwun Tong";
+"lifestyle_form_retail_district_kowloon_district_10"="Lam Tin";
+"lifestyle_form_retail_district_kowloon_district_11"="Ngau Tau Kok";
+"lifestyle_form_retail_district_kowloon_district_12"="Sau Mau Ping";
+"lifestyle_form_retail_district_kowloon_district_13"="Yau Tong";
+"lifestyle_form_retail_district_kowloon_district_14"="Beacon Hill";
+"lifestyle_form_retail_district_kowloon_district_15"="Cheung Sha Wan";
+"lifestyle_form_retail_district_kowloon_district_16"="Lai Chi Kok";
+"lifestyle_form_retail_district_kowloon_district_17"="Ngong Shuen Chau";
+"lifestyle_form_retail_district_kowloon_district_18"="Sham Shui Po";
+"lifestyle_form_retail_district_kowloon_district_19"="Shek Kip Mei";
+"lifestyle_form_retail_district_kowloon_district_20"="Yau Yat Chuen";
+"lifestyle_form_retail_district_kowloon_district_21"="Choi Hung";
+"lifestyle_form_retail_district_kowloon_district_22"="Diamond Hill";
+"lifestyle_form_retail_district_kowloon_district_23"="Lok Fu";
+"lifestyle_form_retail_district_kowloon_district_24"="Ngau Chi Wan";
+"lifestyle_form_retail_district_kowloon_district_25"="San Po Kong";
+"lifestyle_form_retail_district_kowloon_district_26"="Tsz Wan Shan";
+"lifestyle_form_retail_district_kowloon_district_27"="Wang Tau Hom";
+"lifestyle_form_retail_district_kowloon_district_28"="Wong Tai Sin";
+"lifestyle_form_retail_district_kowloon_district_29"="Jordan";
+"lifestyle_form_retail_district_kowloon_district_30"="Mong Kok";
+"lifestyle_form_retail_district_kowloon_district_31"="Tai Kok Tsui";
+"lifestyle_form_retail_district_kowloon_district_32"="Tsim Sha Tsui";
+"lifestyle_form_retail_district_kowloon_district_33"="Yau Ma Tei";
+"lifestyle_form_retail_district_new_territories_district_1"="Kwai Chung";
+"lifestyle_form_retail_district_new_territories_district_2"="Tsing Yi";
+"lifestyle_form_retail_district_new_territories_district_3"="Fanling";
+"lifestyle_form_retail_district_new_territories_district_4"="Kwan Tei, Fanling";
+"lifestyle_form_retail_district_new_territories_district_5"="Kwu Tung";
+"lifestyle_form_retail_district_new_territories_district_6"="Lo Wu";
+"lifestyle_form_retail_district_new_territories_district_7"="Man Kam To";
+"lifestyle_form_retail_district_new_territories_district_8"="Ping Che";
+"lifestyle_form_retail_district_new_territories_district_9"="Sha Tau Kok";
+"lifestyle_form_retail_district_new_territories_district_10"="Sheung Shui";
+"lifestyle_form_retail_district_new_territories_district_11"="Shuen Wan, Tai Po";
+"lifestyle_form_retail_district_new_territories_district_12"="Ta Kwu Ling";
+"lifestyle_form_retail_district_new_territories_district_13"="Clear Water Bay";
+"lifestyle_form_retail_district_new_territories_district_14"="Hang Hau, Sai Kung";
+"lifestyle_form_retail_district_new_territories_district_15"="Po Toi O";
+"lifestyle_form_retail_district_new_territories_district_16"="Sai Kung";
+"lifestyle_form_retail_district_new_territories_district_17"="Tseung Kwan O";
+"lifestyle_form_retail_district_new_territories_district_18"="Fo Tan, Sha Tin";
+"lifestyle_form_retail_district_new_territories_district_19"="Kau To Shan";
+"lifestyle_form_retail_district_new_territories_district_20"="Ma Liu Shui";
+"lifestyle_form_retail_district_new_territories_district_21"="Ma On Shan";
+"lifestyle_form_retail_district_new_territories_district_22"="Sha Tin";
+"lifestyle_form_retail_district_new_territories_district_23"="Siu Lek Yuen, Shatin";
+"lifestyle_form_retail_district_new_territories_district_24"="Tai Wai, Sha Tin";
+"lifestyle_form_retail_district_new_territories_district_25"="Lam Tsuen, Tai Po";
+"lifestyle_form_retail_district_new_territories_district_26"="Tai Po";
+"lifestyle_form_retail_district_new_territories_district_27"="Tai Po Kau";
+"lifestyle_form_retail_district_new_territories_district_28"="Tai Wo";
+"lifestyle_form_retail_district_new_territories_district_29"="Ting Kok, Tai Po";
+"lifestyle_form_retail_district_new_territories_district_30"="Lo Wai, Tsuen Wan";
+"lifestyle_form_retail_district_new_territories_district_31"="Sham Tseng";
+"lifestyle_form_retail_district_new_territories_district_32"="Tai Mo Shan";
+"lifestyle_form_retail_district_new_territories_district_33"="Ting Kau";
+"lifestyle_form_retail_district_new_territories_district_34"="Tsuen Wan";
+"lifestyle_form_retail_district_new_territories_district_35"="Yam O";
+"lifestyle_form_retail_district_new_territories_district_36"="Yau Kom Tau";
+"lifestyle_form_retail_district_new_territories_district_37"="Gold Coast, Tuen Mun";
+"lifestyle_form_retail_district_new_territories_district_38"="Lam Tei, Tuen Mun";
+"lifestyle_form_retail_district_new_territories_district_39"="San Hui, Tuen Mun";
+"lifestyle_form_retail_district_new_territories_district_40"="Siu Lam, Tuen Mun";
+"lifestyle_form_retail_district_new_territories_district_41"="So Kwun Wat, Tuen Mun";
+"lifestyle_form_retail_district_new_territories_district_42"="Tai Lam";
+"lifestyle_form_retail_district_new_territories_district_43"="Tuen Mun";
+"lifestyle_form_retail_district_new_territories_district_44"="Hung Shui Kiu";
+"lifestyle_form_retail_district_new_territories_district_45"="Kam Tin, Yuen Long";
+"lifestyle_form_retail_district_new_territories_district_46"="Lau Fau Shan";
+"lifestyle_form_retail_district_new_territories_district_47"="Mai Po";
+"lifestyle_form_retail_district_new_territories_district_48"="Nam Sang Wai";
+"lifestyle_form_retail_district_new_territories_district_49"="Pat Heung, Yuen Long";
+"lifestyle_form_retail_district_new_territories_district_50"="Ping Shan, Yuen Long";
+"lifestyle_form_retail_district_new_territories_district_51"="San Tin, Yuen Long";
+"lifestyle_form_retail_district_new_territories_district_52"="Tai Tong, Yuen Long";
+"lifestyle_form_retail_district_new_territories_district_53"="Ngau Tam Mei, Yuen Long";
+"lifestyle_form_retail_district_new_territories_district_54"="Tin Shui Wai";
+"lifestyle_form_retail_district_new_territories_district_55"="Yuen Long";
+"lifestyle_form_retail_district_new_territories_district_56"="Fu Tei, Tuen Mun";
+"lifestyle_form_retail_district_new_territories_district_57"="Ha Tsuen, Yuen Long";
+"lifestyle_form_retail_district_new_territories_district_58"="Shek Kong, Yuen Long";
+"lifestyle_form_retail_district_new_territories_district_59"="Lok Ma Chau";
+"lifestyle_form_retail_district_island_district_1"="Chek Lap Kok,Lantau";
+"lifestyle_form_retail_district_island_district_2"="Lamma Island";
+"lifestyle_form_retail_district_island_district_3"="Cheung Sha,Lantau";
+"lifestyle_form_retail_district_island_district_4"="Chi Ma Wan,Lantau";
+"lifestyle_form_retail_district_island_district_5"="Hei Ling Chau";
+"lifestyle_form_retail_district_island_district_6"="Lantau Island";
+"lifestyle_form_retail_district_island_district_7"="Mui Wo,Lantau";
+"lifestyle_form_retail_district_island_district_8"="Ngong Ping,Lantau";
+"lifestyle_form_retail_district_island_district_9"="Peng Chau";
+"lifestyle_form_retail_district_island_district_10"="Po Toi Island";
+"lifestyle_form_retail_district_island_district_11"="Pui O,Lantau";
+"lifestyle_form_retail_district_island_district_12"="Shek Kwu Chau";
+"lifestyle_form_retail_district_island_district_13"="Shek PikLantau";
+"lifestyle_form_retail_district_island_district_14"="Soko Islands";
+"lifestyle_form_retail_district_island_district_15"="Tai O,Lantau";
+"lifestyle_form_retail_district_island_district_16"="Tong Fuk,Lantau";
+"lifestyle_form_retail_district_island_district_17"="Tung Chung,Lantau";
+"lifestyle_form_retail_district_island_district_18"="Tung Lung Chau";
+"lifestyle_form_retail_district_island_district_19"="Ma Wan";
+"lifestyle_form_retail_district_island_district_20"="Discovery Bay,Lantau";
+"lifestyle_form_retail_district_island_district_21"="Cheung Chau";
+
+
+"lifestyle_form_retail_district_region1" = "Hong Kong";
+"lifestyle_form_retail_district_region2" = "Kowloon";
+"lifestyle_form_retail_district_region3" = "NT";
+"lifestyle_form_retail_district_region4" = "Outlying Islands";
+
+"lifestyle_address_type_1" = "Home";
+"lifestyle_address_type_2" = "Office";
+"lifestyle_address_type_3" = "Other";
+
+"Next_CP" = "Next";
+"PleaseSelectRegionFirst_CP" = "Please select region first";
+"WrongCategoryOrFormMessage_CP" = "Please update the app.";
+"addtoFavMessage_CP" = "Do you wish to add this item to favourite list?";
+"retrieveLifeStyleErrorMsg_CP" = "Connection error. Please try again later.";
+"LifeStyleOutOfStockAlert_CP" = "This item is currently out of stock/unavailable";
+
+"reatail_option_1" = "Champagne Laurent- Perrier Brut 2004";
+"reatail_option_2" = "Louis Jadot Meursault 1er Cru “Les Genevrières” 2007";
+"reatail_option_3" = "Marques de Riscal Gran Reserva 150th Anniversario Edition 2001";
+"healthcheck_option_1" = "BAPP-MS2014";
+"healthcheck_option_2" = "GARDASIL (4-in-1 HPV) Vaccine";
+
+
+"lifeStyle_dinner_option_2" = "Wan Chai";
+
+"lifeStyle_health_option_5" = "GARDASIL (4-in-1 HPV) Vaccine";
+"lifeStyle_health_option_9" = "BAPP-MS2014";
+
+"lifeStyle_retail_option_4" = "Special Lafite Champagne Set";
+"lifeStyle_retail_option_7" = "Special Burgundy 1er Cru Set";
+"lifeStyle_retail_option_8" = "Special “King of Spanish Wines” Set";
+"lifeStyle_retail_option_13" = "King Parrot Royal Card";
+"lifeStyle_retail_option_14" = "VALMONT Discovery Kit";
+"lifeStyle_retail_option_15" = "agnès b. Rose & Mini Rose";
+"lifeStyle_retail_option_16" = "agnès b. Hydrangea & Rose";
+"lifeStyle_retail_option_17" = "agnès b. Flower Box";
+"lifeStyle_retail_option_18" = "Special wooden jewellery chest with a box of carré chocolates (28 pcs) ";
+
+"ACCESSIBALITY_MENU" = "Site map button";
+"ACCESSIBALITY_MORE_TAB" = "More functions button";
+"ACCESSIBALITY_BACK" = "Back button";
+"ACCESSIBALITY_MORE" = "More details button";
+"ACCESSIBALITY_FAV" = "Bookmark button";
+"ACCESSIBALITY_FAV_SELECTED" = "Bookmark button selected";
+"ACCESSIBALITY_SHARE" = "Share button";
+"ACCESSIBALITY_SHOW" = "Show button";
+"ACCESSIBALITY_HIDE" = "Hide button";
+"ACCESSIBALITY_EDIT" = "Edit button";
+"ACCESSIBALITY_DONE" = "Done button";
+"ACCESSIBALITY_BUTTON" = "button";
+
+"ACCESSIBALITY_MOBILE_BANKING" = "Mobile Banking button";
+"ACCESSIBALITY_SUPERGOLD" = "SupremeGold button";
+"ACCESSIBALITY_CONSUMER_LOANS" = "Consumer Loans button";
+"ACCESSIBALITY_PROPERTY_LOAN" = "Mortgage Loans button";
+"ACCESSIBALITY_INSURANCE" = "Insurance button";
+"ACCESSIBALITY_MPF" = "MPF button";
+"ACCESSIBALITY_STOCKS" = "Stocks button";
+"ACCESSIBALITY_BRANCH_ATM" = "Branch/ATM button";
+"ACCESSIBALITY_HOTLINES" = "Hotlines button";
+"ACCESSIBALITY_CREDIT_CARD" = "Credit Card button";
+"ACCESSIBALITY_FACEBOOK_PAGE" = "Social Network button";
+"ACCESSIBALITY_HOT_OFFER" = "Hot Offers button";
+"ACCESSIBALITY_IP2P" = "i-P2P button";
+
+
+"ACCESSIBALITY_PAGE_WEALTH" = "Page Wealth button";
+"ACCESSIBALITY_PAGE_BANKING" = "Page Banking button";
+"ACCESSIBALITY_PAGE_LIFESTYLE" = "Page Lifestyle button";
+"ACCESSIBALITY_PAGE_WEALTH_SELECTED" = "Page Wealth button selected";
+"ACCESSIBALITY_PAGE_BANKING_SELECTED" = "Page Banking button selected";
+"ACCESSIBALITY_PAGE_LIFESTYLE_SELECTED" = "Page Lifestyle button selected";
+"ACCESSIBALITY_PAGE_LISTING_BANK" = "Icon mode button";
+"ACCESSIBALITY_PAGE_GIRD_BANK" = "Dashboard mode button";
+"ACCESSIBALITY_PAGE_LISTING_LIFESTYLE" = "Small icon mode button";
+"ACCESSIBALITY_PAGE_GIRD_LIFESTYLE" = "Large icon mode button";
+"ACCESSIBALITY_PROMOTION_MESSAGE" = "Promotion message";
+"ACCESSIBALITY_SCROLL" = "Auto scroll button";
+"NoBookmarkStored_CP" = "No bookmark stored";
+"Delete_CP" = "Delete";
+"ACCESSIBALITY_SHOW_BUTTON" = "Show banner button";
+"ACCESSIBALITY_HIDE_BUTTON" = "Hide banner button";
+"ACCESSIBALITY_DASHBOARD_SETTING_BUTTON" = "Dashboard Settings button";
+"ACCESSIBALITY_DASHBOARD_DONE_BUTTON" = "Done button";
+
+"order_cancel_alert_title" = "Cancel order";
+"order_cancel_alert_message" = "Are you sure you want to cancel the order?";
+"lifestyle.btn.understood"="I have read and understood the above information.";
+"lifestyle.btn.Cancel"="Cancel";
+"lifestyle.btn.Title"="Important";
+

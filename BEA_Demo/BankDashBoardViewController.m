@@ -55,7 +55,12 @@ static  BankDashBoardViewController *bankDashBoard = nil;
     CollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"cellID" forIndexPath:indexPath];
     Banking *banking =[self.bankingForCollectionArray objectAtIndex:indexPath.row];
     
-    [cell.cellImageView setImage:[UIImage imageNamed:NSLocalizedString(banking.bankingImage, @"")]];
+ 
+    
+    [cell.cellImageView setImage:[UIImage imageNamed: [NSString  stringWithFormat:@"%@_gird" ,banking.bankingImage]]];
+
+//    [cell.cellLabel setTextColor:[UIColor  alpha:1]] ;
+
     [cell.cellLabel setText:banking.bankingName];
     
     return cell;
@@ -65,6 +70,11 @@ static  BankDashBoardViewController *bankDashBoard = nil;
     return 12;
 }
 
+
+-(CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath{
+    NSLog(@"widthis %f",collectionView.frame.size.width);
+    return CGSizeMake((collectionView.frame.size.width  )/ 3, 125);
+}
 /*
 #pragma mark - Navigation
 

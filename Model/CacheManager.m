@@ -103,7 +103,7 @@ static CacheManager *cacheManager = nil;
     sqlite3_stmt *stmt;
     NSString *sql = @"select id, bankingMaster from bankingMaster order by id desc";
     if(sqlite3_prepare_v2(connection, [sql UTF8String], -1, &stmt, nil) == SQLITE_OK){
-        while(sqlite3_step(stmt) == SQLITE_ROW){
+        if(sqlite3_step(stmt) == SQLITE_ROW){
             int tempId = sqlite3_column_int(stmt, 0);
             NSLog(@"Banking Master id is %d",tempId);
             const void *tempValue = sqlite3_column_blob(stmt, 1);

@@ -11,7 +11,7 @@
 #import "CacheManager.h"
 #import "Banking.h"
 
-@interface BankDashBoardViewController : UIViewController<UICollectionViewDataSource,UICollectionViewDelegate>
+@interface BankDashBoardViewController : UIViewController<UICollectionViewDataSource,UICollectionViewDelegate,UICollectionViewDelegateFlowLayout>
 
 @property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
 

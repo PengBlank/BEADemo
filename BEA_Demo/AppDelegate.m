@@ -10,7 +10,7 @@
 #import "Banking.h"
 #import "BankingMaster.h"
 #import "CacheManager.h"
-
+#import "Language.h"
 
 @interface AppDelegate ()
 
@@ -49,6 +49,11 @@
     [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
     
     [self createAllBanking];
+    
+    Language *language = [Language getInstance];
+    NSString *currentLan = [language getCurrentLanguage];
+    NSLog(@"Current Lan is %@",currentLan);
+    
     
     return YES;
 }
