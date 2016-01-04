@@ -11,13 +11,13 @@
 		800CA2AF1C0C8CF100316E3F /* BankDashBoardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 800CA2AA1C0C8CF100316E3F /* BankDashBoardViewController.xib */; };
 		800CA2B01C0C8CF100316E3F /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 800CA2AC1C0C8CF100316E3F /* CollectionViewCell.m */; };
 		800CA2B11C0C8CF100316E3F /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 800CA2AD1C0C8CF100316E3F /* CollectionViewCell.xib */; };
-		8300A2A31BFDAC8600E38D08 /* NavigationBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8300A2A11BFDAC8600E38D08 /* NavigationBarViewController.m */; };
-		83153EB31C167211004D24D9 /* CacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 83153EB21C167211004D24D9 /* CacheManager.m */; };
-		83153EB61C16722C004D24D9 /* BankingMaster.m in Sources */ = {isa = PBXBuildFile; fileRef = 83153EB51C16722C004D24D9 /* BankingMaster.m */; };
+		80159C231C36261900ABB278 /* BankingMaster.m in Sources */ = {isa = PBXBuildFile; fileRef = 80159C1E1C36261900ABB278 /* BankingMaster.m */; };
+		80159C241C36261900ABB278 /* CacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 80159C201C36261900ABB278 /* CacheManager.m */; };
+		80159C251C36261900ABB278 /* Language.m in Sources */ = {isa = PBXBuildFile; fileRef = 80159C221C36261900ABB278 /* Language.m */; };
+		80159C291C3626CD00ABB278 /* NavigationBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80159C271C3626CD00ABB278 /* NavigationBarViewController.m */; };
+		80159C2A1C3626CD00ABB278 /* NavigationBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80159C281C3626CD00ABB278 /* NavigationBarViewController.xib */; };
 		83153EB91C167238004D24D9 /* Banking.m in Sources */ = {isa = PBXBuildFile; fileRef = 83153EB81C167238004D24D9 /* Banking.m */; };
 		83153EBB1C16D798004D24D9 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 83153EBA1C16D798004D24D9 /* libsqlite3.tbd */; };
-		834D1B271C32143F001C70D2 /* NavigationBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 834D1B291C32143F001C70D2 /* NavigationBarViewController.xib */; };
-		834D1B371C322CC6001C70D2 /* Language.m in Sources */ = {isa = PBXBuildFile; fileRef = 834D1B361C322CC6001C70D2 /* Language.m */; };
 		83538F661BFC2C85007D547C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83538F651BFC2C85007D547C /* main.m */; };
 		83538F691BFC2C85007D547C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83538F681BFC2C85007D547C /* AppDelegate.m */; };
 		83538F6C1BFC2C85007D547C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83538F6B1BFC2C85007D547C /* ViewController.m */; };
@@ -61,18 +61,18 @@
 		800CA2AB1C0C8CF100316E3F /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
 		800CA2AC1C0C8CF100316E3F /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
 		800CA2AD1C0C8CF100316E3F /* CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
-		8300A2A01BFDAC8600E38D08 /* NavigationBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NavigationBarViewController.h; path = ../NavigationBarViewController.h; sourceTree = "<group>"; };
-		8300A2A11BFDAC8600E38D08 /* NavigationBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NavigationBarViewController.m; path = ../NavigationBarViewController.m; sourceTree = "<group>"; };
-		83153EB11C167211004D24D9 /* CacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CacheManager.h; path = ../Model/CacheManager.h; sourceTree = "<group>"; };
-		83153EB21C167211004D24D9 /* CacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CacheManager.m; path = ../Model/CacheManager.m; sourceTree = "<group>"; };
-		83153EB41C16722C004D24D9 /* BankingMaster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BankingMaster.h; path = ../Model/BankingMaster.h; sourceTree = "<group>"; };
-		83153EB51C16722C004D24D9 /* BankingMaster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BankingMaster.m; path = ../Model/BankingMaster.m; sourceTree = "<group>"; };
+		80159C1D1C36261900ABB278 /* BankingMaster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BankingMaster.h; sourceTree = "<group>"; };
+		80159C1E1C36261900ABB278 /* BankingMaster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BankingMaster.m; sourceTree = "<group>"; };
+		80159C1F1C36261900ABB278 /* CacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CacheManager.h; sourceTree = "<group>"; };
+		80159C201C36261900ABB278 /* CacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CacheManager.m; sourceTree = "<group>"; };
+		80159C211C36261900ABB278 /* Language.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Language.h; sourceTree = "<group>"; };
+		80159C221C36261900ABB278 /* Language.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Language.m; sourceTree = "<group>"; };
+		80159C261C3626CD00ABB278 /* NavigationBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationBarViewController.h; sourceTree = "<group>"; };
+		80159C271C3626CD00ABB278 /* NavigationBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationBarViewController.m; sourceTree = "<group>"; };
+		80159C281C3626CD00ABB278 /* NavigationBarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NavigationBarViewController.xib; sourceTree = "<group>"; };
 		83153EB71C167238004D24D9 /* Banking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Banking.h; sourceTree = "<group>"; };
 		83153EB81C167238004D24D9 /* Banking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Banking.m; sourceTree = "<group>"; };
 		83153EBA1C16D798004D24D9 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
-		834D1B281C32143F001C70D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/NavigationBarViewController.xib; sourceTree = "<group>"; };
-		834D1B351C322CC6001C70D2 /* Language.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Language.h; path = ../Model/Language.h; sourceTree = "<group>"; };
-		834D1B361C322CC6001C70D2 /* Language.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Language.m; path = ../Model/Language.m; sourceTree = "<group>"; };
 		83538F611BFC2C85007D547C /* BEA_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BEA_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83538F651BFC2C85007D547C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		83538F671BFC2C85007D547C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -129,6 +129,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		80159C1C1C36261900ABB278 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				80159C1D1C36261900ABB278 /* BankingMaster.h */,
+				80159C1E1C36261900ABB278 /* BankingMaster.m */,
+				80159C1F1C36261900ABB278 /* CacheManager.h */,
+				80159C201C36261900ABB278 /* CacheManager.m */,
+				80159C211C36261900ABB278 /* Language.h */,
+				80159C221C36261900ABB278 /* Language.m */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
 		83153EB01C167143004D24D9 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -141,7 +154,7 @@
 		83538F581BFC2C85007D547C = {
 			isa = PBXGroup;
 			children = (
-				83F3D19C1C3361FF007F6FAB /* common */,
+				80159C1C1C36261900ABB278 /* common */,
 				83153EB01C167143004D24D9 /* Model */,
 				83538F631BFC2C85007D547C /* BEA_Demo */,
 				83538F7D1BFC2C85007D547C /* BEA_DemoTests */,
@@ -172,9 +185,9 @@
 				83C626401BFEED67007C00EB /* PageControllerViewController.h */,
 				83C626411BFEED67007C00EB /* PageControllerViewController.m */,
 				83C626421BFEED67007C00EB /* PageControllerViewController.xib */,
-				8300A2A01BFDAC8600E38D08 /* NavigationBarViewController.h */,
-				8300A2A11BFDAC8600E38D08 /* NavigationBarViewController.m */,
-				834D1B291C32143F001C70D2 /* NavigationBarViewController.xib */,
+				80159C261C3626CD00ABB278 /* NavigationBarViewController.h */,
+				80159C271C3626CD00ABB278 /* NavigationBarViewController.m */,
+				80159C281C3626CD00ABB278 /* NavigationBarViewController.xib */,
 				83538F671BFC2C85007D547C /* AppDelegate.h */,
 				83538F681BFC2C85007D547C /* AppDelegate.m */,
 				83538F6A1BFC2C85007D547C /* ViewController.h */,
@@ -228,19 +241,6 @@
 				83538F9D1BFC4B48007D547C /* bea_icon@3x.png */,
 			);
 			path = Resource;
-			sourceTree = "<group>";
-		};
-		83F3D19C1C3361FF007F6FAB /* common */ = {
-			isa = PBXGroup;
-			children = (
-				834D1B351C322CC6001C70D2 /* Language.h */,
-				834D1B361C322CC6001C70D2 /* Language.m */,
-				83153EB11C167211004D24D9 /* CacheManager.h */,
-				83153EB21C167211004D24D9 /* CacheManager.m */,
-				83153EB41C16722C004D24D9 /* BankingMaster.h */,
-				83153EB51C16722C004D24D9 /* BankingMaster.m */,
-			);
-			path = common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -348,9 +348,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80159C2A1C3626CD00ABB278 /* NavigationBarViewController.xib in Resources */,
 				83538F741BFC2C85007D547C /* LaunchScreen.storyboard in Resources */,
 				83538F9F1BFC4B48007D547C /* bea_icon@2x.png in Resources */,
-				834D1B271C32143F001C70D2 /* NavigationBarViewController.xib in Resources */,
 				83F3D1A31C33798F007F6FAB /* Localizable.strings in Resources */,
 				800CA2AF1C0C8CF100316E3F /* BankDashBoardViewController.xib in Resources */,
 				83538F711BFC2C85007D547C /* Assets.xcassets in Resources */,
@@ -386,14 +386,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83153EB31C167211004D24D9 /* CacheManager.m in Sources */,
-				83153EB61C16722C004D24D9 /* BankingMaster.m in Sources */,
-				834D1B371C322CC6001C70D2 /* Language.m in Sources */,
-				8300A2A31BFDAC8600E38D08 /* NavigationBarViewController.m in Sources */,
+				80159C231C36261900ABB278 /* BankingMaster.m in Sources */,
+				80159C251C36261900ABB278 /* Language.m in Sources */,
+				80159C291C3626CD00ABB278 /* NavigationBarViewController.m in Sources */,
 				83538F6C1BFC2C85007D547C /* ViewController.m in Sources */,
 				83C626431BFEED67007C00EB /* PageControllerViewController.m in Sources */,
 				83538F691BFC2C85007D547C /* AppDelegate.m in Sources */,
 				83538F661BFC2C85007D547C /* main.m in Sources */,
+				80159C241C36261900ABB278 /* CacheManager.m in Sources */,
 				800CA2B01C0C8CF100316E3F /* CollectionViewCell.m in Sources */,
 				83153EB91C167238004D24D9 /* Banking.m in Sources */,
 				800CA2AE1C0C8CF100316E3F /* BankDashBoardViewController.m in Sources */,
@@ -432,15 +432,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		834D1B291C32143F001C70D2 /* NavigationBarViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				834D1B281C32143F001C70D2 /* Base */,
-			);
-			name = NavigationBarViewController.xib;
-			path = ..;
-			sourceTree = "<group>";
-		};
 		83538F6D1BFC2C85007D547C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
