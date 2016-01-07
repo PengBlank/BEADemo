@@ -71,6 +71,8 @@ static  BankDashBoardViewController *bankDashBoard = nil;
 }
 
 
+#pragma collection view delegate flow layout
+
 -(CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath{
     NSLog(@"widthis %f",collectionView.frame.size.width);
     return CGSizeMake((collectionView.frame.size.width  )/ 3, 125);
