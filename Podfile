@@ -5,6 +5,9 @@
 
 target 'BEA_Demo' do
    pod 'Masonry'
+   pod 'AFNetworking'
+   pod 'SDWebImage'
+   pod 'XMLDictionary'
 end
 
 target 'BEA_DemoTests' do

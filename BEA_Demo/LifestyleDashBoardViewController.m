@@ -8,6 +8,7 @@
 
 #import "LifestyleDashBoardViewController.h"
 #import <Masonry.h>
+#import <AFNetworking.h>
 
 @interface LifestyleDashBoardViewController ()
 

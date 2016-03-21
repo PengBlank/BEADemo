@@ -16,6 +16,8 @@
 		80159C251C36261900ABB278 /* Language.m in Sources */ = {isa = PBXBuildFile; fileRef = 80159C221C36261900ABB278 /* Language.m */; };
 		80159C291C3626CD00ABB278 /* NavigationBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80159C271C3626CD00ABB278 /* NavigationBarViewController.m */; };
 		80159C2A1C3626CD00ABB278 /* NavigationBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80159C281C3626CD00ABB278 /* NavigationBarViewController.xib */; };
+		818B47651C91378C002D73D6 /* LifeStyleCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 818B47631C91378C002D73D6 /* LifeStyleCollectionViewCell.m */; };
+		818B47661C91378C002D73D6 /* LifeStyleCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 818B47641C91378C002D73D6 /* LifeStyleCollectionViewCell.xib */; };
 		83153EB91C167238004D24D9 /* Banking.m in Sources */ = {isa = PBXBuildFile; fileRef = 83153EB81C167238004D24D9 /* Banking.m */; };
 		83153EBB1C16D798004D24D9 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 83153EBA1C16D798004D24D9 /* libsqlite3.tbd */; };
 		834BCBDB1C3E63DD0063C0C8 /* LifestyleDashBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 834BCBD91C3E63DD0063C0C8 /* LifestyleDashBoardViewController.m */; };
@@ -73,6 +75,9 @@
 		80159C261C3626CD00ABB278 /* NavigationBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationBarViewController.h; sourceTree = "<group>"; };
 		80159C271C3626CD00ABB278 /* NavigationBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationBarViewController.m; sourceTree = "<group>"; };
 		80159C281C3626CD00ABB278 /* NavigationBarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NavigationBarViewController.xib; sourceTree = "<group>"; };
+		818B47621C91378C002D73D6 /* LifeStyleCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LifeStyleCollectionViewCell.h; sourceTree = "<group>"; };
+		818B47631C91378C002D73D6 /* LifeStyleCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LifeStyleCollectionViewCell.m; sourceTree = "<group>"; };
+		818B47641C91378C002D73D6 /* LifeStyleCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LifeStyleCollectionViewCell.xib; sourceTree = "<group>"; };
 		83153EB71C167238004D24D9 /* Banking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Banking.h; sourceTree = "<group>"; };
 		83153EB81C167238004D24D9 /* Banking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Banking.m; sourceTree = "<group>"; };
 		83153EBA1C16D798004D24D9 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
@@ -202,6 +207,9 @@
 				834BCBD81C3E63DD0063C0C8 /* LifestyleDashBoardViewController.h */,
 				834BCBD91C3E63DD0063C0C8 /* LifestyleDashBoardViewController.m */,
 				834BCBDA1C3E63DD0063C0C8 /* LifestyleDashBoardViewController.xib */,
+				818B47621C91378C002D73D6 /* LifeStyleCollectionViewCell.h */,
+				818B47631C91378C002D73D6 /* LifeStyleCollectionViewCell.m */,
+				818B47641C91378C002D73D6 /* LifeStyleCollectionViewCell.xib */,
 				800CA2AB1C0C8CF100316E3F /* CollectionViewCell.h */,
 				800CA2AC1C0C8CF100316E3F /* CollectionViewCell.m */,
 				800CA2AD1C0C8CF100316E3F /* CollectionViewCell.xib */,
@@ -391,6 +399,7 @@
 				800CA2AF1C0C8CF100316E3F /* BankDashBoardViewController.xib in Resources */,
 				83538F711BFC2C85007D547C /* Assets.xcassets in Resources */,
 				800CA2B11C0C8CF100316E3F /* CollectionViewCell.xib in Resources */,
+				818B47661C91378C002D73D6 /* LifeStyleCollectionViewCell.xib in Resources */,
 				83C626441BFEED67007C00EB /* PageControllerViewController.xib in Resources */,
 				83538F6F1BFC2C85007D547C /* Main.storyboard in Resources */,
 				83538FA41BFC55E2007D547C /* menu.png in Resources */,
@@ -472,6 +481,7 @@
 			files = (
 				80159C231C36261900ABB278 /* BankingMaster.m in Sources */,
 				80159C251C36261900ABB278 /* Language.m in Sources */,
+				818B47651C91378C002D73D6 /* LifeStyleCollectionViewCell.m in Sources */,
 				80159C291C3626CD00ABB278 /* NavigationBarViewController.m in Sources */,
 				83538F6C1BFC2C85007D547C /* ViewController.m in Sources */,
 				83C626431BFEED67007C00EB /* PageControllerViewController.m in Sources */,
