@@ -18,6 +18,8 @@
 		80159C2A1C3626CD00ABB278 /* NavigationBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80159C281C3626CD00ABB278 /* NavigationBarViewController.xib */; };
 		818B47651C91378C002D73D6 /* LifeStyleCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 818B47631C91378C002D73D6 /* LifeStyleCollectionViewCell.m */; };
 		818B47661C91378C002D73D6 /* LifeStyleCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 818B47641C91378C002D73D6 /* LifeStyleCollectionViewCell.xib */; };
+		81E2805C1C9FA80700F472BA /* LifeStyleItemsCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 81E2805B1C9FA80700F472BA /* LifeStyleItemsCategory.m */; };
+		81E2805F1C9FCC3600F472BA /* WebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 81E2805E1C9FCC3600F472BA /* WebService.m */; };
 		83153EB91C167238004D24D9 /* Banking.m in Sources */ = {isa = PBXBuildFile; fileRef = 83153EB81C167238004D24D9 /* Banking.m */; };
 		83153EBB1C16D798004D24D9 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 83153EBA1C16D798004D24D9 /* libsqlite3.tbd */; };
 		834BCBDB1C3E63DD0063C0C8 /* LifestyleDashBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 834BCBD91C3E63DD0063C0C8 /* LifestyleDashBoardViewController.m */; };
@@ -78,6 +80,10 @@
 		818B47621C91378C002D73D6 /* LifeStyleCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LifeStyleCollectionViewCell.h; sourceTree = "<group>"; };
 		818B47631C91378C002D73D6 /* LifeStyleCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LifeStyleCollectionViewCell.m; sourceTree = "<group>"; };
 		818B47641C91378C002D73D6 /* LifeStyleCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LifeStyleCollectionViewCell.xib; sourceTree = "<group>"; };
+		81E2805A1C9FA80700F472BA /* LifeStyleItemsCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LifeStyleItemsCategory.h; sourceTree = "<group>"; };
+		81E2805B1C9FA80700F472BA /* LifeStyleItemsCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LifeStyleItemsCategory.m; sourceTree = "<group>"; };
+		81E2805D1C9FCC3600F472BA /* WebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebService.h; sourceTree = "<group>"; };
+		81E2805E1C9FCC3600F472BA /* WebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebService.m; sourceTree = "<group>"; };
 		83153EB71C167238004D24D9 /* Banking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Banking.h; sourceTree = "<group>"; };
 		83153EB81C167238004D24D9 /* Banking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Banking.m; sourceTree = "<group>"; };
 		83153EBA1C16D798004D24D9 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
@@ -170,6 +176,10 @@
 			children = (
 				83153EB71C167238004D24D9 /* Banking.h */,
 				83153EB81C167238004D24D9 /* Banking.m */,
+				81E2805A1C9FA80700F472BA /* LifeStyleItemsCategory.h */,
+				81E2805B1C9FA80700F472BA /* LifeStyleItemsCategory.m */,
+				81E2805D1C9FCC3600F472BA /* WebService.h */,
+				81E2805E1C9FCC3600F472BA /* WebService.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -486,10 +496,12 @@
 				83538F6C1BFC2C85007D547C /* ViewController.m in Sources */,
 				83C626431BFEED67007C00EB /* PageControllerViewController.m in Sources */,
 				83538F691BFC2C85007D547C /* AppDelegate.m in Sources */,
+				81E2805C1C9FA80700F472BA /* LifeStyleItemsCategory.m in Sources */,
 				83538F661BFC2C85007D547C /* main.m in Sources */,
 				80159C241C36261900ABB278 /* CacheManager.m in Sources */,
 				800CA2B01C0C8CF100316E3F /* CollectionViewCell.m in Sources */,
 				834BCBDB1C3E63DD0063C0C8 /* LifestyleDashBoardViewController.m in Sources */,
+				81E2805F1C9FCC3600F472BA /* WebService.m in Sources */,
 				83153EB91C167238004D24D9 /* Banking.m in Sources */,
 				800CA2AE1C0C8CF100316E3F /* BankDashBoardViewController.m in Sources */,
 			);

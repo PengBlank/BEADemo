@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "WebService.h"
 
 @interface ViewController ()
 
@@ -36,6 +36,17 @@
     [self.view addSubview:_pageControl.view];
     [self.view addSubview:_bankDashBoard.view];
 
+    WebService *service = [[WebService alloc]init];
+    [service getLifeStyleCategoriesWithSuccess:^(NSMutableArray *array) {
+        for (id aa in array) {
+            NSLog(@"%@",aa);
+        }
+    } failure:^(BOOL c,  NSInteger a, NSString *b) {
+        
+    }];
+     
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
