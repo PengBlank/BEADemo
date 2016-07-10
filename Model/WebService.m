@@ -15,11 +15,7 @@
 -(void)getLifeStyleCategoriesWithSuccess:(void (^)(NSMutableArray *))success failure:(void (^)(BOOL, NSInteger, NSString *))failure{
     
     NSString *urlString = @"http://hkbea.mtel.ws/java/bea/lifestyle/getcategory.api";
-    NSURL *url = [[NSURL alloc]initWithString:urlString];
-    
-    if ([[url path] length] > 0 && ![[url absoluteString] hasSuffix:@"/"]) {
-        url = [url URLByAppendingPathComponent:@""];
-    }
+  //  NSURL *urlForCategories = [[NSURL alloc]initWithString:urlString];
    // NSURLRequest *requstForItem = [[NSURLRequest alloc]initWithURL:urlForCategories];
     NSDictionary *params = @{@"lang":@"en"};
 //    AFHTTPSessionManager *manager = [[AFHTTPSessionManager alloc]initWithBaseURL:nil];
